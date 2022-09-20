@@ -1,12 +1,14 @@
-import './App.css';
+import './App.css'
 
-function App() {
+import {Banner, Navbar} from './page'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
-  );
+    <>
+      <Navbar />
+      <Banner />
+    </>
+  )
 }
 
-export default App;
+export default App
