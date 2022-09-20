@@ -1,0 +1,23 @@
+@mixin desktop
+{
+  @media all and (min-width: $lg)
+  {
+    @content;
+  }
+}
+
+@mixin md
+{
+  @media all and (min-width: $md)
+  {
+    @content;
+  }
+}
+
+@mixin sm
+{
+  @media all and (max-width: $sm)
+  {
+    @content;
+  }
+}
