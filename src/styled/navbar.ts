@@ -4,6 +4,7 @@ import logo from '../asset/img/logo.png'
 import icon1 from '../asset/img/nav-icon1.svg'
 import icon2 from '../asset/img/nav-icon2.svg'
 import icon3 from '../asset/img/nav-icon3.svg'
+import {LG} from '../constant/Mixin'
 import {colors} from '../constant/Variables'
 
 export const Nav = styled.nav`
@@ -15,24 +16,59 @@ export const Nav = styled.nav`
   margin: 10px 0;
 `
 export const Brand = styled.a`
-  width: 14%;
+  width: 150px;
+  height: 36px;
   padding: 5px;
 `
 export const Logo = styled.img`
   content: url(${logo});
 `
-export const Collapse = styled.div`
+export const Toggle = styled.button`
+  padding: 10px;
+  background: transparent;
+  position: absolute;
+  top: -3px;
+  right: 20px;
+  display: block;
+
+  div {
+    width: 1.5rem;
+    height: 0.125rem;
+    background: white;
+    margin-top: 0.25rem;
+    position: relative;
+  }
+  ${LG} {
+    display: none;
+  }
+`
+export const Collapse = styled.div<{expanded: boolean}>`
   display: flex;
+  flex-direction: column;
   align-items: center;
   flex-grow: 1;
+  position: absolute;
+  top: ${(props) => (props.expanded ? '50px' : '45px')};
+  transition: 0.2s ease-out;
+  opacity: ${(props) => (props.expanded ? 1 : 0)};
+  ${LG} {
+    opacity: 1;
+    flex-direction: row;
+    position: relative;
+    top: 0;
+  }
 `
 export const NavContainer = styled.div`
   display: flex;
-  margin-left: 50px;
   margin-right: auto;
+  flex-direction: column;
+  ${LG} {
+    flex-direction: row;
+    margin-left: 50px;
+  }
 `
 export const NavLink = styled.a`
-  padding: 0 25px;
+  padding: 3px 100px;
   letter-spacing: 0.8px;
   font-size: 18px;
   opacity: 0.75;
@@ -43,11 +79,17 @@ export const NavLink = styled.a`
   &::first-letter {
     text-transform: uppercase;
   }
+  ${LG} {
+    padding: 0 25px;
+  }
 `
-
 export const SocialContainer = styled.div`
   display: flex;
   align-items: center;
+  margin-top: 15px;
+  ${LG} {
+    margin-top: 0;
+  }
 `
 export const IconContainer = styled.div`
   margin-left: 14px;
