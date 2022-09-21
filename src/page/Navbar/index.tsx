@@ -28,7 +28,7 @@ const Navbar = () => {
           <SocialContainer>
             <IconContainer>
               {Object.keys(SocialHref).map((ele, idx) => (
-                <SocialLink key={idx} href={SocialHref[ele]}>
+                <SocialLink key={idx} href={SocialHref[ele]} target='_blank'>
                   <SocialIcon className={`icon${idx + 1}`} />
                 </SocialLink>))}
             </IconContainer>
