@@ -15,11 +15,11 @@ export const Nav = styled.nav`
   margin: 10px 0;
 `
 export const Brand = styled.a`
-  width: 10%;
+  width: 14%;
+  padding: 5px;
 `
 export const Logo = styled.img`
   content: url(${logo});
-  width: 150px;
 `
 export const Collapse = styled.div`
   display: flex;

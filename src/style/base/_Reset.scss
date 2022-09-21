@@ -225,11 +225,13 @@ html
   /* 2 */
 }
 
-a 
+a
 {
   color: inherit;
-  text-decoration: inherit; /* no underline */
+  text-decoration: inherit;
+  /* no underline */
 }
+
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
@@ -492,6 +494,7 @@ textarea
 
 img
 {
+  width: 100%;
   vertical-align: middle;
 }
 
