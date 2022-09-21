@@ -43,6 +43,10 @@ export const Toggle = styled.button`
   }
 `
 export const Collapse = styled.div<{expanded: boolean}>`
+  width: 100%;
+  border-radius: 20px;
+  background: rgba(18, 18, 18, 0.3);
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,10 +56,12 @@ export const Collapse = styled.div<{expanded: boolean}>`
   transition: 0.2s ease-out;
   opacity: ${(props) => (props.expanded ? 1 : 0)};
   ${LG} {
+    background: transparent;
     opacity: 1;
     flex-direction: row;
     position: relative;
     top: 0;
+    padding: 0;
   }
 `
 export const NavContainer = styled.div`
