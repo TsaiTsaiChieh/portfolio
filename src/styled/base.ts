@@ -10,11 +10,14 @@ export const Container = styled.div`
   margin-left: auto;
   justify-content: flex-start;
   flex-wrap: inherit;
+  position: relative;
+  padding: 0 25px;
   ${SM} {
     max-width: 540px;
   }
   ${MD} {
     max-width: 720px;
+    padding: 0;
   }
   ${LG} {
     max-width: 960px;
