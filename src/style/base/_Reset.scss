@@ -118,6 +118,7 @@ section
 body
 {
   line-height: 1;
+  color: white;
 }
 
 ol,
@@ -224,6 +225,11 @@ html
   /* 2 */
 }
 
+a 
+{
+  color: inherit;
+  text-decoration: inherit; /* no underline */
+}
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
