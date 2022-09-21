@@ -1,4 +1,26 @@
-@mixin desktop
+$sm: "576px";
+$md: "768px";
+$lg: "992px";
+$xl: "1200px";
+$xxl: "1320px";
+
+@mixin xxl
+{
+  @media all and (min-width: $xxl)
+  {
+    @content;
+  }
+}
+
+@mixin xl
+{
+  @media all and (min-width: $xl)
+  {
+    @content;
+  }
+}
+
+@mixin lg
 {
   @media all and (min-width: $lg)
   {
