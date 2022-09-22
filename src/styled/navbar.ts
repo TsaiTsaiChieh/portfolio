@@ -45,7 +45,6 @@ export const Toggle = styled.button`
 export const Collapse = styled.div<{expanded: boolean}>`
   width: 100%;
   border-radius: 20px;
-  background: rgba(18, 18, 18, 0.4);
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -158,7 +157,7 @@ export const LangBtn = styled.button`
   border: 1px solid white;
   font-size: 18px;
   margin-left: 18px;
-  width: 180px;
+  width: 120px;
   height: 60px;
   letter-spacing: 3px;
   position: relative;
