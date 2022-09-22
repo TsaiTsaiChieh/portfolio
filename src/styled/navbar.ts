@@ -45,7 +45,7 @@ export const Toggle = styled.button`
 export const Collapse = styled.div<{expanded: boolean}>`
   width: 100%;
   border-radius: 20px;
-  background: rgba(18, 18, 18, 0.3);
+  background: rgba(18, 18, 18, 0.4);
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -98,7 +98,6 @@ export const SocialContainer = styled.div`
   }
 `
 export const IconContainer = styled.div`
-  margin-left: 14px;
   a:before {
     content: "";
     width: 42px;
@@ -111,6 +110,9 @@ export const IconContainer = styled.div`
   }
   a:hover:before {
     transform: scale(1);
+  }
+  ${LG} {
+    margin-left: 14px;
   }
 `
 export const SocialLink = styled.a`
