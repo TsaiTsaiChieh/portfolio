@@ -1,25 +1,23 @@
 import {namespaces} from './constants'
 
-export const es = {
-  [namespaces.common]: {
-    buttons: {
-      ok: 'Aceptar',
-      cancel: 'Cancelar',
-    },
+export const zh = {
+  [namespaces.button]: {
+    translation: 'EN',
   },
-  [namespaces.pages.hello]: {
-    welcome: 'Bienvenido',
+  [namespaces.nav]: {
+    skills: '技能',
+    experience: '經歷',
+    projects: '個人專案',
   },
 }
 
 export const en = {
-  [namespaces.common]: {
-    buttons: {
-      ok: 'Ok',
-      cancel: 'Cancel',
-    },
+  [namespaces.button]: {
+    translation: 'ZH',
   },
-  [namespaces.pages.hello]: {
-    welcome: 'Welcome',
+  [namespaces.nav]: {
+    skills: 'skills',
+    experience: 'experience',
+    projects: 'projects',
   },
 }

@@ -1,11 +1,9 @@
 export const namespaces = {
-  pages: {
-    hello: 'pages.hello',
-  },
-  common: 'common',
+  button: 'button',
+  nav: 'nav',
 }
 
 export const languages = {
-  es: 'es',
+  zh: 'zh',
   en: 'en',
 }
