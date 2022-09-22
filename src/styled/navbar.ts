@@ -158,7 +158,9 @@ export const LangBtn = styled.button`
   border: 1px solid white;
   font-size: 18px;
   margin-left: 18px;
-  padding: 18px 34px;
+  width: 180px;
+  height: 60px;
+  letter-spacing: 3px;
   position: relative;
   transition: 0.3s ease-in-out;
   &:hover {
