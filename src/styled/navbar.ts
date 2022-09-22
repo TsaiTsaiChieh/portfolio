@@ -141,7 +141,8 @@ export const SocialIcon = styled.img`
     content: url(${icon1});
   }
   &.icon2 {
-    width: 33%;
+    width: 16px;
+    height: 16px;
     content: url(${icon2});
   }
   &.icon3 {
