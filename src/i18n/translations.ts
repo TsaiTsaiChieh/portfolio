@@ -9,6 +9,9 @@ export const zh = {
     experience: '經歷',
     projects: '個人專案',
   },
+  [namespaces.title]: {
+    welcome: '歡迎來到我的履歷',
+  },
 }
 
 export const en = {
@@ -19,5 +22,8 @@ export const en = {
     skills: 'skills',
     experience: 'experience',
     projects: 'projects',
+  },
+  [namespaces.title]: {
+    welcome: 'Welcome to my Portfolio',
   },
 }
