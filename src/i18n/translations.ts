@@ -25,7 +25,7 @@ export const zh = {
 export const en = {
   [ns.button]: {
     translation: 'ZH',
-    downloadCV: 'Download My CV',
+    downloadCV: 'Download CV',
   },
   [ns.nav]: {
     skills: 'skills',
