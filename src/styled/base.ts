@@ -29,3 +29,13 @@ export const Container = styled.div`
     max-width: 1320px;
   }
 `
+export const Row = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  ${LG} {
+    flex-direction: row;
+  }
+`
