@@ -5,7 +5,15 @@ import Typewriter from 'typewriter-effect'
 import astronaut from '../../asset/img/astronaut-operating-laptop.json'
 import {namespaces as ns} from '../../i18n/constants'
 import {
-  Astronaut, Box, Description, Details, DownloadCV, Planet, Section, TagLine,
+  Astronaut,
+  Box,
+  Description,
+  Details,
+  DownloadCV,
+  DownloadIcon,
+  Planet,
+  Section,
+  TagLine,
 } from '../../styled/banner'
 import {Container, Row} from '../../styled/base'
 
@@ -30,7 +38,10 @@ const Banner = () => {
             />
             <Details>{t('introduction', {ns: ns.content})}</Details>
             <Box>
-              <DownloadCV>{t('downloadCV', {ns: ns.button})}</DownloadCV>
+              <DownloadCV>
+                {t('downloadCV', {ns: ns.button})}
+                <DownloadIcon />
+              </DownloadCV>
             </Box>
           </Description>
           <Astronaut>
