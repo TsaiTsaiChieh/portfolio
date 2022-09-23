@@ -1,28 +1,48 @@
 import styled from 'styled-components'
 
-const banner = require('../asset/img/banner-bg.png')
+import banner from '../asset/img/banner-bg.png'
+import planet from '../asset/img/planet.svg'
+import {LG} from '../constant/Mixin'
+import {colors} from '../constant/Variables'
 
 export const Section = styled.section`
-  width: 100%;
   height: 100vh;
-  display: flex;
+  padding: 260px 0 100px;
   background-image: url(${banner});
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 `
-export const Row = styled.div`
-  display: flex;
-  width: 100%;
-  justify-content: center;
-`
 export const Description = styled.div`
-  flex-grow: 2;
+  width: 100%;
+  ${LG} {
+    width: 68%;
+  }
+  .Typewriter {
+    font-size: 40px;
+    font-weight: bold;
+    height: 92px;
+    margin: 20px 0;
+    letter-spacing: 1.5px;
+    ${LG} {
+      font-size: 58px;
+    }
+  }
+`
+export const Title = styled.h1`
+  font-size: 40px;
+  font-weight: bold;
+  height: 92px;
+  margin: 20px 0;
+  letter-spacing: 1.5px;
+  ${LG} {
+    font-size: 58px;
+  }
 `
 export const TagLine = styled.span`
   font-weight: bolder;
   letter-spacing: 0.8px;
-  padding: 8px 10px;
+  padding: 12px 10px;
   background-image: linear-gradient(
     to left,
     #224456,
@@ -38,11 +58,70 @@ export const TagLine = styled.span`
     #9ad2c7,
     #acdad0
   );
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid ${colors.black['opacity-50']};
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
 `
+export const Details = styled.p`
+  height: 170px;
+  color: ${colors.black[100]};
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 1.3em;
+  width: 96%;
+  white-space: pre-line;
+  ${LG} {
+    height: 116px;
+    font-size: 18px;
+    line-height: 1.6em;
+  }
+`
+export const Box = styled.div`
+  position: relative;
+  width: 185px;
+  height: 45px;
+  background: #1c1c1c;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 60px;
+  &::before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 185px;
+    height: 45px;
+    transform-origin: bottom right;
+    background: linear-gradient(0deg, transparent, #38afa2, #acdad0);
+    animation: animate 5s linear infinite;
+  }
+`
+export const DownloadCV = styled.button`
+  position: absolute;
+  inset: 2px;
+  background: ${colors.black[50]};
+  border-radius: 8px;
+  z-index: 2;
+  color: white;
+`
 export const Astronaut = styled.div`
-  flex-grow: 1;
+  width: 80 %;
+  position: relative;
+  margin-top: 20px;
+  ${LG} {
+    width: 38 %;
+  }
+  img,
+  .lottie {
+    animation: updown 3s linear infinite;
+  }
+`
+export const Planet = styled.img`
+  content: url(${planet});
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
 `
