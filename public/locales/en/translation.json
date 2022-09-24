@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "skills": "skills",
+    "experience": "experience",
+    "projects": "projects"
+  },
+  "title": {
+    "welcome": "Welcome to my Portfolio",
+    "fullStack": "I 'm a Full Stack Developer",
+    "cleanCode": "I ❤ to Write Clean Code"
+  },
+  "content": {
+    "introduction": "I'm a self-taught full stack engineer and a cross-disciplinary learner. I like to solve problems by coding, and keep on writing clean and stable code. I'm also a Adventurer (from )"
+  },
+  "button": {
+    "translation": "ZH",
+    "downloadCV": "Download CV"
+  }
+}

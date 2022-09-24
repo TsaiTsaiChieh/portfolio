@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "skills": "技能",
+    "experience": "經歷",
+    "projects": "個人專案"
+  },
+  "title": {
+    "welcome": "有嚴重程式碼潔癖的工程師",
+    "fullStack": "從後端逐步走向前端世界⋯",
+    "cleanCode": "喜歡寫整潔和易維護的程式碼"
+  },
+  "content": {
+    "introduction": "我是位自學的全端工程師和跨領域學習者。喜歡透過程式來解決問題，並撰寫乾淨且穩定的程式碼"
+  },
+  "button": {
+    "translation": "EN",
+    "downloadCV": "下載我的履歷"
+  }
+}
