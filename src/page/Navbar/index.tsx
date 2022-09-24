@@ -1,14 +1,21 @@
 import {useState} from 'react'
-import {useTranslation} from 'react-i18next'
+import {Trans, useTranslation} from 'react-i18next'
 
 import {Modifier} from '../../constant/Enum'
 import {NavbarHref, SocialHref} from '../../constant/Links'
-import {namespaces} from '../../i18n/constants'
 import {Container} from '../../styled/base'
 import {
-  Brand, Collapse, IconContainer, LangBtn, Logo, Nav,
-  NavContainer, NavLink, SocialContainer,
-  SocialIcon, SocialLink,
+  Brand,
+  Collapse,
+  IconContainer,
+  LangBtn,
+  Logo,
+  Nav,
+  NavContainer,
+  NavLink,
+  SocialContainer,
+  SocialIcon,
+  SocialLink,
 } from '../../styled/navbar'
 import Hamburger from './Hamburger'
 
@@ -16,8 +23,8 @@ const Navbar = () => {
   const [activeHref, setActiveHref] = useState<keyof typeof NavbarHref>(
     Object.keys(NavbarHref)[0],
   )
+  const {i18n} = useTranslation()
   const [expanded, setExpanded] = useState<boolean>(false)
-  const {t, i18n} = useTranslation()
   const changeLanguage = () => {
     i18n.language === 'zh' ?
       i18n.changeLanguage('en') :
@@ -44,7 +51,7 @@ const Navbar = () => {
                   onClick={() => setActiveHref(ele)}
                   href={NavbarHref[ele]}
                 >
-                  {t(ele, {ns: namespaces.nav})}
+                  <Trans i18nKey={`nav.${ele}`} />
                 </NavLink>
               ))}
           </NavContainer>
@@ -57,7 +64,7 @@ const Navbar = () => {
               ))}
             </IconContainer>
             <LangBtn onClick={changeLanguage}>
-              {t('translation', {ns: namespaces.button})}
+              <Trans i18nKey='button.translation' />
             </LangBtn>
           </SocialContainer>
         </Collapse>
