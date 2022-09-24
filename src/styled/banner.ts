@@ -96,6 +96,7 @@ export const Box = styled.div`
     left: -50%;
     width: 200px;
     height: 55px;
+    border-radius: 8px;
     transform-origin: bottom right;
     background: linear-gradient(
       0deg,
@@ -124,7 +125,7 @@ export const DownloadCV = styled.button`
   letter-spacing: 0.5px;
   &:hover {
     svg {
-      margin-left: 20px;
+      margin-left: 18px;
     }
   }
 `
