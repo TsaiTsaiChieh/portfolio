@@ -6,7 +6,6 @@ import astronaut from '../../asset/img/astronaut-operating-laptop.json'
 import {Personality} from '../../constant/Links'
 import {
   Astronaut,
-  Box,
   Description,
   Details,
   DownloadCV,
@@ -15,7 +14,7 @@ import {
   Section,
   TagLine,
 } from '../../styled/banner'
-import {Container, Row} from '../../styled/base'
+import {AnimationBox, Container, Row} from '../../styled/base'
 
 const Banner = () => {
   const {t} = useTranslation()
@@ -50,12 +49,12 @@ const Banner = () => {
                 }}
               />
             </Details>
-            <Box>
+            <AnimationBox width={200} height={55}>
               <DownloadCV>
                 <Trans i18nKey='button.downloadCV' />
                 <DownloadIcon />
               </DownloadCV>
-            </Box>
+            </AnimationBox>
           </Description>
           <Astronaut>
             <Planet />
