@@ -1,12 +1,13 @@
 import './App.css'
 
-import {Banner, Navbar} from './page'
+import {Banner, Navbar, Skills} from './page'
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Banner />
+      <Skills />
     </>
   )
 }
