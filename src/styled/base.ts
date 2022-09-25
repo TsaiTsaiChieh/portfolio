@@ -55,7 +55,8 @@ export const AnimationBox = styled.div<{width: number; height: number}>`
   border-radius: 8px;
   overflow: hidden;
   margin: auto;
-  &::before {
+  &::before, &::after {
+    border-radius:10px;
     content: "";
     z-index: 1;
     position: absolute;
@@ -63,15 +64,12 @@ export const AnimationBox = styled.div<{width: number; height: number}>`
     left: -50%;
     width: ${(props) => props.width}px;
     height: ${(props) => props.height}px;
-    border-radius: 8px;
     transform-origin: bottom right;
-    background: linear-gradient(
-      0deg,
-      transparent,
-      ${colors.primary[200]},
-      ${colors.primary[200]}
-    );
+    background: linear-gradient(0deg,transparent,#38AFA2,#38AFA2);
     animation: animate 5s linear infinite;
+  } 
+  &::after {
+    animation-delay: -2.5s;
   }
   ${LG} {
     margin: 0;

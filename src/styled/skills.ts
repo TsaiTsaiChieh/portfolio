@@ -30,26 +30,28 @@ export const CardContainer = styled.ul`
   flex-direction: column;
   gap: 30px;
   justify-content: space-evenly;
-  z-index: 10;
+  z-index: 2;
   ${LG} {
     flex-direction: row;
   }
 `
 export const CardBody = styled.li`
-  width: 350px;
-  height: 552px;
-  position: absolute;
+  width: 346px;
+  height: 548px;
+  position: relative;
   border-radius: 10px;
   inset: 2px;
   align-items: center;
   background: ${colors.black[60]};
   z-index: 10;
+  overflow: hidden;
 `
 export const SkillGroup = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 20px;
+  border-radius:10px ;
 `
 export const SkillItem = styled.li`
   display: flex;
