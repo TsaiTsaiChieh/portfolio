@@ -1,4 +1,5 @@
 export enum Modifier {
   NULL = '',
-  ACTIVE = 'active'
+  ACTIVE = 'active',
+  SCROLL = 'scrolled'
 }
