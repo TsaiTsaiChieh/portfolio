@@ -29,6 +29,11 @@ body
   box-sizing: border-box;
 }
 
+html
+{
+  scroll-behavior: smooth;
+}
+
 button
 {
   font-family: inherit;
