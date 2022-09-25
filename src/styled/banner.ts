@@ -60,36 +60,6 @@ export const Details = styled.p`
     line-height: 1.6em;
   }
 `
-export const Box = styled.div`
-  position: relative;
-  width: 200px;
-  height: 55px;
-  background: #1c1c1c;
-  border-radius: 8px;
-  overflow: hidden;
-  margin: auto;
-  &::before {
-    content: "";
-    z-index: 1;
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200px;
-    height: 55px;
-    border-radius: 8px;
-    transform-origin: bottom right;
-    background: linear-gradient(
-      0deg,
-      transparent,
-      ${colors.primary[200]},
-      ${colors.primary[200]}
-    );
-    animation: animate 5s linear infinite;
-  }
-  ${LG} {
-    margin: 0;
-  }
-`
 export const DownloadCV = styled.button`
   position: absolute;
   display: flex;
