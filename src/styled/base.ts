@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 import {LG, MD, SM, XL, XXL} from '../constant/Mixin'
+import {colors} from '../constant/Variables'
 
 export const Container = styled.div`
   width: 100%;
@@ -37,5 +38,42 @@ export const Row = styled.div`
   align-items: center;
   ${LG} {
     flex-direction: row;
+  }
+`
+export const Col = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+`
+export const AnimationBox = styled.div<{width: number; height: number}>`
+  position: relative;
+  width: ${(props) => props.width}px;
+  height: ${(props) => props.height}px;
+  background: ${colors.black[55]};
+  border-radius: 8px;
+  overflow: hidden;
+  margin: auto;
+  &::before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: ${(props) => props.width}px;
+    height: ${(props) => props.height}px;
+    border-radius: 8px;
+    transform-origin: bottom right;
+    background: linear-gradient(
+      0deg,
+      transparent,
+      ${colors.primary[200]},
+      ${colors.primary[200]}
+    );
+    animation: animate 5s linear infinite;
+  }
+  ${LG} {
+    margin: 0;
   }
 `
