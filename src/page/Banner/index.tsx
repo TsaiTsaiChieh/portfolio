@@ -1,9 +1,9 @@
 import Lottie from 'lottie-react'
-import {useTranslation} from 'react-i18next'
+import {Trans, useTranslation} from 'react-i18next'
 import Typewriter from 'typewriter-effect'
 
 import astronaut from '../../asset/img/astronaut-operating-laptop.json'
-import {namespaces as ns} from '../../i18n/constants'
+import {Personality} from '../../constant/Links'
 import {
   Astronaut,
   Box,
@@ -25,21 +25,34 @@ const Banner = () => {
       <Container>
         <Row>
           <Description>
-            <TagLine>{t('welcome', {ns: ns.title})}</TagLine>
+            <TagLine>
+              <Trans i18nKey='title.welcome' />
+            </TagLine>
             <Typewriter
               options={{
-                strings: [
-                  t('fullStack', {ns: ns.title}),
-                  t('cleanCode', {ns: ns.title}),
-                ],
+                strings: [t('title.fullStack'), t('title.cleanCode')],
                 autoStart: true,
                 loop: true,
               }}
             />
-            <Details>{t('introduction', {ns: ns.content})}</Details>
+            <Details>
+              <Trans
+                i18nKey='content.introduction'
+                components={{
+                  1: (
+                    <a
+                      href={Personality.adventurer}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    />
+                  ),
+                  2: <u />,
+                }}
+              />
+            </Details>
             <Box>
               <DownloadCV>
-                {t('downloadCV', {ns: ns.button})}
+                <Trans i18nKey='button.downloadCV' />
                 <DownloadIcon />
               </DownloadCV>
             </Box>
