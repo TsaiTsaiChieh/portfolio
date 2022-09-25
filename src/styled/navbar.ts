@@ -10,10 +10,14 @@ import {colors} from '../constant/Variables'
 export const Nav = styled.nav`
   width: 100%;
   position: fixed;
-  padding: 18px 0;
+  padding: 24px 0;
   z-index: 9999;
-  transition: 0.32s ease-in-out;
-  margin: 10px 0;
+  transition: 0.35s ease-in-out;
+  &.scrolled {
+    background: ${colors.black[50]};
+    margin: 0;
+    padding: 16px 0;
+  }
 `
 export const Brand = styled.a`
   width: 150px;
@@ -44,7 +48,10 @@ export const Toggle = styled.button`
 `
 export const Collapse = styled.div<{expanded: boolean}>`
   width: 100%;
-  border-radius: 20px;
+  &.scrolled {
+    background: ${(props) =>
+    props.expanded ? colors.black[50] : 'transparent'};
+  }
   padding: 10px;
   display: flex;
   flex-direction: column;

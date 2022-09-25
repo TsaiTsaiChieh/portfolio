@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useEffect, useState} from 'react'
 import {Trans, useTranslation} from 'react-i18next'
 
 import {Modifier} from '../../constant/Enum'
@@ -23,6 +23,15 @@ const Navbar = () => {
   const [activeHref, setActiveHref] = useState<keyof typeof NavbarHref>(
     Object.keys(NavbarHref)[0],
   )
+  const [scrolled, setScrolled] = useState<boolean>(false)
+  useEffect(() => {
+    const onScroll = () => {
+      window.scrollY > 50 ? setScrolled(true) : setScrolled(false)
+    }
+    window.addEventListener('scroll', onScroll)
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
   const {i18n} = useTranslation()
   const [expanded, setExpanded] = useState<boolean>(false)
   const changeLanguage = () => {
@@ -32,13 +41,16 @@ const Navbar = () => {
   }
 
   return (
-    <Nav>
+    <Nav className={scrolled ? Modifier.SCROLL : ''}>
       <Container>
         <Brand href={NavbarHref.home}>
           <Logo />
         </Brand>
         <Hamburger expanded={expanded} setExpanded={setExpanded} />
-        <Collapse expanded={expanded}>
+        <Collapse
+          className={scrolled ? Modifier.SCROLL : ''}
+          expanded={expanded}
+        >
           <NavContainer>
             {Object.keys(NavbarHref)
               .slice(1)
