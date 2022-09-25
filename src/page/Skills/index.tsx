@@ -1,8 +1,23 @@
-import {Section} from '../../styled/skills'
+import {useTranslation} from 'react-i18next'
+
+import {NavbarHref} from '../../constant/Links'
+import {Col, Container} from '../../styled/base'
+import {Background, Section, Title} from '../../styled/skills'
+import Cards from './Cards'
 
 const Skills = () => {
+  const {t} = useTranslation()
+
   return (
-    <Section id='skills'>Skills</Section>
+    <Section id={Object.keys(NavbarHref)[1]}>
+      <Container>
+        <Col>
+          <Title>{t('nav.skills')}</Title>
+          <Cards />
+        </Col>
+      </Container>
+      <Background />
+    </Section>
   )
 }
 
