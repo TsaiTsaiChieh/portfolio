@@ -9,3 +9,6 @@ export const SocialHref: {[index: string]: string} = {
   cakeResume: 'https://www.cakeresume.com/tsaitsaichieh',
   github: 'https://github.com/TsaiTsaiChieh',
 }
+export const Personality: {[index: string]: string} = {
+  adventurer: 'https://www.16personalities.com/isfp-personality',
+}
