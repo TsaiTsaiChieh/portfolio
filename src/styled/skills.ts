@@ -44,7 +44,6 @@ export const CardBody = styled.li`
   align-items: center;
   background: ${colors.black[60]};
   z-index: 10;
- 
 `
 export const SkillGroup = styled.ul`
   display: flex;
@@ -59,7 +58,7 @@ export const SkillItem = styled.li`
     color: black;
     padding: 15px;
     font-size: 80px;
-    border-radius: 50%;
+    border-radius: 40%;
     background: white;
   }
   span {
