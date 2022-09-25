@@ -31,34 +31,14 @@ export const Description = styled.div`
     }
   }
 `
-export const Title = styled.h1`
-  font-size: 40px;
-  font-weight: bold;
-  height: 92px;
-  margin: 20px 0;
-  letter-spacing: 1.5px;
-  ${LG} {
-    font-size: 58px;
-  }
-`
 export const TagLine = styled.span`
   font-weight: bolder;
   letter-spacing: 0.8px;
-  padding: 12px 10px;
-  background-image: linear-gradient(
-    to left,
-    #224456,
-    #215769,
-    #1d6a7b,
-    #1b7e8a,
-    #209397,
-    #36a09e,
-    #4aada6,
-    #5cbaad,
-    #72c2b5,
-    #86cabe,
-    #9ad2c7,
-    #acdad0
+  padding: 14px 11px;
+  background: linear-gradient(
+    90deg,
+    rgba(34, 68, 86, 0.7) -5%,
+    rgba(172, 218, 208, 0.8) 100%
   );
   border: 1px solid ${colors.black['opacity-50']};
   font-size: 20px;
@@ -73,7 +53,7 @@ export const Details = styled.p`
   line-height: 1.3em;
   width: 96%;
   white-space: pre-line;
-  margin-bottom: 60px;
+  margin-bottom: 90px;
   ${LG} {
     height: 116px;
     font-size: 18px;
