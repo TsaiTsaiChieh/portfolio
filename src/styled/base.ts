@@ -1,3 +1,4 @@
+import TrackVisibility from 'react-on-screen'
 import styled from 'styled-components'
 
 import {LG, MD, SM, XL, XXL} from '../constant/Mixin'
@@ -30,7 +31,7 @@ export const Container = styled.div`
     max-width: 1320px;
   }
 `
-export const Row = styled.div`
+export const Row = styled(TrackVisibility)`
   display: flex;
   flex-direction: column;
   width: 100%;
