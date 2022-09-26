@@ -15,7 +15,7 @@ export const Section = styled.section`
   background-size: cover;
   background-repeat: no-repeat;
 `
-export const Description = styled.div`
+export const DescriptionContainer = styled.div`
   width: 100%;
   ${LG} {
     width: 68%;
@@ -101,7 +101,7 @@ export const DownloadIcon = styled(BsArrowRightCircle)`
   transition: 0.3s ease-in-out;
   line-height: 1;
 `
-export const Astronaut = styled.div`
+export const AstronautContainer = styled.div`
   width: 50%;
   position: relative;
   margin-top: 60px;

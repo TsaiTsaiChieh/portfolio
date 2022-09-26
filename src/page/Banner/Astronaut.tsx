@@ -1,0 +1,16 @@
+import Lottie from 'lottie-react'
+import React from 'react'
+
+import astronaut from '../../asset/img/astronaut-operating-laptop.json'
+import {AstronautContainer, Planet} from '../../styled/banner'
+
+const Astronaut = () => {
+  return (
+    <AstronautContainer>
+      <Planet />
+      <Lottie className='lottie' animationData={astronaut} loop={true} />
+    </AstronautContainer>
+  )
+}
+
+export default Astronaut
