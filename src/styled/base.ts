@@ -47,10 +47,8 @@ export const Col = styled.div`
   justify-content: center;
   align-items: center;
 `
-export const AnimationBox = styled.div<{width: number; height: number}>`
+export const AnimationBox = styled.div`
   position: relative;
-  width: ${(props) => props.width}px;
-  height: ${(props) => props.height}px;
   background: ${colors.black[55]};
   border-radius: 8px;
   overflow: hidden;
@@ -63,8 +61,6 @@ export const AnimationBox = styled.div<{width: number; height: number}>`
     position: absolute;
     top: -50%;
     left: -50%;
-    width: ${(props) => props.width}px;
-    height: ${(props) => props.height}px;
     transform-origin: bottom right;
     background: linear-gradient(
       0deg,
