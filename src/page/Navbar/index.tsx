@@ -34,7 +34,12 @@ const Navbar = () => {
 
   const {i18n} = useTranslation()
   const [expanded, setExpanded] = useState<boolean>(false)
+  const navOnClick = (href: keyof typeof NavbarHref) => {
+    setExpanded(false)
+    setActiveHref(href)
+  }
   const changeLanguage = () => {
+    setExpanded(false)
     i18n.language === 'zh' ?
       i18n.changeLanguage('en') :
       i18n.changeLanguage('zh')
@@ -43,7 +48,9 @@ const Navbar = () => {
   return (
     <Nav className={scrolled ? Modifier.SCROLL : ''}>
       <Container>
-        <Brand href={NavbarHref.home}>
+        <Brand
+          href={NavbarHref.home}
+          onClick={() => navOnClick(Object.keys(NavbarHref)[0])}>
           <Logo />
         </Brand>
         <Hamburger expanded={expanded} setExpanded={setExpanded} />
@@ -60,7 +67,7 @@ const Navbar = () => {
                   className={
                     activeHref === ele ? Modifier.ACTIVE : Modifier.NULL
                   }
-                  onClick={() => setActiveHref(ele)}
+                  onClick={() => navOnClick(ele)}
                   href={NavbarHref[ele]}
                 >
                   <Trans i18nKey={`nav.${ele}`} />
@@ -73,6 +80,7 @@ const Navbar = () => {
                 <SocialLink
                   key={idx}
                   href={SocialHref[ele]}
+                  onClick={() => setExpanded(false)}
                   target='_blank'
                   rel='noreferrer noopener'
                 >
