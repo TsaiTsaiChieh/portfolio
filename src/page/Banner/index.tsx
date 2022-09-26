@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect'
 import astronaut from '../../asset/img/astronaut-operating-laptop.json'
 import {Personality} from '../../constant/Links'
 import {
-  Animated,
+  AnimatedBox,
   Astronaut,
   Description,
   Details,
@@ -50,12 +50,12 @@ const Banner = () => {
                 }}
               />
             </Details>
-            <Animated>
+            <AnimatedBox>
               <DownloadCV>
                 <Trans i18nKey='button.downloadCV' />
                 <DownloadIcon />
               </DownloadCV>
-            </Animated>
+            </AnimatedBox>
           </Description>
           <Astronaut>
             <Planet />

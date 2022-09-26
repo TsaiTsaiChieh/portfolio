@@ -13,7 +13,7 @@ import {
 } from 'react-icons/si'
 
 import {
-  Animated,
+  AnimatedBox,
   CardBody,
   CardBottom,
   CardContainer,
@@ -61,7 +61,7 @@ const Cards = () => {
   return (
     <CardContainer>
       {SkillTree.map((ele) => (
-        <Animated key={ele.name}>
+        <AnimatedBox key={ele.name}>
           <CardBody>
             <SkillGroup>
               {ele.icons.map((icon, idx) => (
@@ -79,7 +79,7 @@ const Cards = () => {
               </CardDetails>
             </CardBottom>
           </CardBody>
-        </Animated>
+        </AnimatedBox>
       ))}
     </CardContainer>
   )

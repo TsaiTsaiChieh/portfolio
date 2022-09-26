@@ -38,7 +38,7 @@ export const CardContainer = styled.ul`
     flex-direction: row;
   }
 `
-export const Animated = styled(AnimationBox)`
+export const AnimatedBox = styled(AnimationBox)`
   &,
   &::after,
   &::before {

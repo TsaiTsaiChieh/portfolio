@@ -68,7 +68,7 @@ export const Details = styled.p`
     margin-bottom: 120px;
   }
 `
-export const Animated = styled(AnimationBox)`
+export const AnimatedBox = styled(AnimationBox)`
   &,
   &::before,
   &::after {
