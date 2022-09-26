@@ -8,7 +8,7 @@ import {colors} from '../constant/Variables'
 import {AnimationBox} from './base'
 
 export const Section = styled.section`
-  height: 100vh;
+  height: 100%;
   padding: 260px 0 100px;
   background-image: url(${banner});
   background-position: top center;
@@ -102,7 +102,7 @@ export const DownloadIcon = styled(BsArrowRightCircle)`
   line-height: 1;
 `
 export const Astronaut = styled.div`
-  width: 80%;
+  width: 50%;
   position: relative;
   margin-top: 60px;
   ${LG} {

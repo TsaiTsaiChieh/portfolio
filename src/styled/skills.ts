@@ -11,8 +11,10 @@ export const Section = styled.section`
   display: flex;
   position: relative;
   overflow: hidden;
+  padding: 110px 0;
+  z-index:10;
   ${LG} {
-    height: 100vh;
+    padding: 70px 0;
   }
 `
 export const Title = styled.h2`
