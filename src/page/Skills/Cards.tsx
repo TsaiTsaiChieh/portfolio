@@ -12,8 +12,8 @@ import {
   SiTsnode,
 } from 'react-icons/si'
 
-import {AnimationBox} from '../../styled/base'
 import {
+  Animated,
   CardBody,
   CardBottom,
   CardContainer,
@@ -61,7 +61,7 @@ const Cards = () => {
   return (
     <CardContainer>
       {SkillTree.map((ele) => (
-        <AnimationBox key={ele.name} width={350} height={552}>
+        <Animated key={ele.name}>
           <CardBody>
             <SkillGroup>
               {ele.icons.map((icon, idx) => (
@@ -79,7 +79,7 @@ const Cards = () => {
               </CardDetails>
             </CardBottom>
           </CardBody>
-        </AnimationBox>
+        </Animated>
       ))}
     </CardContainer>
   )

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import background from '../asset/img/color-sharp2.png'
 import {LG} from '../constant/Mixin'
 import {colors} from '../constant/Variables'
+import {AnimationBox} from './base'
 
 export const Section = styled.section`
   height: auto;
@@ -35,9 +36,17 @@ export const CardContainer = styled.ul`
     flex-direction: row;
   }
 `
+export const Animated = styled(AnimationBox)`
+  &,
+  &::after,
+  &::before {
+    width: 100%;
+    height: 100%;
+  }
+`
 export const CardBody = styled.li`
-  width: 346px;
-  height: 548px;
+  width: 100%;
+  height: 100%;
   position: relative;
   border-radius: 10px;
   inset: 2px;
@@ -51,7 +60,7 @@ export const SkillGroup = styled.ul`
   flex-direction: column;
   gap: 20px;
   padding: 20px;
-  border-radius:10px ;
+  border-radius: 10px;
 `
 export const SkillItem = styled.li`
   display: flex;
@@ -59,7 +68,7 @@ export const SkillItem = styled.li`
   svg {
     color: black;
     padding: 15px;
-    font-size: 80px;
+    font-size: 60px;
     border-radius: 40%;
     background: white;
   }
@@ -67,6 +76,11 @@ export const SkillItem = styled.li`
     font-size: 18px;
     margin-left: 15px;
     letter-spacing: 1px;
+  }
+  ${LG} {
+    svg {
+      font-size: 80px;
+    }
   }
 `
 export const CardBottom = styled.div`
@@ -85,11 +99,14 @@ export const CardBottom = styled.div`
   }
 `
 export const CardLabel = styled.label`
-  font-size: 24px;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
   margin-bottom: 10px;
+  ${LG} {
+    font-size: 24px;
+  }
 `
 export const CardDetails = styled.p`
   line-height: 1.2rem;

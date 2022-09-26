@@ -5,6 +5,7 @@ import Typewriter from 'typewriter-effect'
 import astronaut from '../../asset/img/astronaut-operating-laptop.json'
 import {Personality} from '../../constant/Links'
 import {
+  Animated,
   Astronaut,
   Description,
   Details,
@@ -14,7 +15,7 @@ import {
   Section,
   TagLine,
 } from '../../styled/banner'
-import {AnimationBox, Container, Row} from '../../styled/base'
+import {Container, Row} from '../../styled/base'
 
 const Banner = () => {
   const {t} = useTranslation()
@@ -49,12 +50,12 @@ const Banner = () => {
                 }}
               />
             </Details>
-            <AnimationBox width={200} height={55}>
+            <Animated>
               <DownloadCV>
                 <Trans i18nKey='button.downloadCV' />
                 <DownloadIcon />
               </DownloadCV>
-            </AnimationBox>
+            </Animated>
           </Description>
           <Astronaut>
             <Planet />

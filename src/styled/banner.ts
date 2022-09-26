@@ -3,8 +3,9 @@ import styled from 'styled-components'
 
 import banner from '../asset/img/banner-bg.png'
 import planet from '../asset/img/planet.svg'
-import {LG} from '../constant/Mixin'
+import {LG, MD, XL} from '../constant/Mixin'
 import {colors} from '../constant/Variables'
+import {AnimationBox} from './base'
 
 export const Section = styled.section`
   height: 100vh;
@@ -27,7 +28,7 @@ export const Description = styled.div`
     letter-spacing: 1.5px;
     line-height: 1.3em;
     ${LG} {
-      font-size: 58px;
+      font-size: 48px;
     }
   }
 `
@@ -54,10 +55,25 @@ export const Details = styled.p`
   width: 96%;
   white-space: pre-line;
   margin-bottom: 90px;
+  ${MD} {
+    margin-bottom: 40px;
+  }
   ${LG} {
     height: 116px;
     font-size: 18px;
     line-height: 1.6em;
+    margin-bottom: 140px;
+  }
+  ${XL} {
+    margin-bottom: 120px;
+  }
+`
+export const Animated = styled(AnimationBox)`
+  &,
+  &::before,
+  &::after {
+    width: 200px;
+    height: 55px;
   }
 `
 export const DownloadCV = styled.button`
