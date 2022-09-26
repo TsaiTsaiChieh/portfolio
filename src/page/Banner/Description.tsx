@@ -6,11 +6,16 @@ import {
   AnimatedBox, DescriptionContainer, Details, DownloadCV, DownloadIcon, TagLine,
 } from '../../styled/banner'
 
-const Description = () => {
+interface Props {
+  isVisible: boolean
+}
+const Description = ({isVisible}: Props) => {
   const {t} = useTranslation()
 
   return (
-    <DescriptionContainer>
+    <DescriptionContainer className={
+      isVisible ? 'animate__animated animate__fadeIn' : ''
+    }>
       <TagLine>
         <Trans i18nKey='title.welcome' />
       </TagLine>

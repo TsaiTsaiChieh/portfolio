@@ -4,9 +4,14 @@ import React from 'react'
 import astronaut from '../../asset/img/astronaut-operating-laptop.json'
 import {AstronautContainer, Planet} from '../../styled/banner'
 
-const Astronaut = () => {
+interface Props {
+  isVisible: boolean
+}
+const Astronaut = ({isVisible}: Props) => {
   return (
-    <AstronautContainer>
+    <AstronautContainer className={
+      isVisible ? 'animate__animated animate__zoomIn' : ''
+    }>
       <Planet />
       <Lottie className='lottie' animationData={astronaut} loop={true} />
     </AstronautContainer>
