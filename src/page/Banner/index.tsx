@@ -8,8 +8,12 @@ const Banner = () => {
     <Section id='home'>
       <Container>
         <Row>
-          <Description />
-          <Astronaut />
+          {({isVisible}) => (
+            <>
+              <Description isVisible={isVisible} />
+              <Astronaut isVisible={isVisible} />
+            </>
+          )}
         </Row>
       </Container>
     </Section>
