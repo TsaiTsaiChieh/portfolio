@@ -1,6 +1,6 @@
 import './App.css'
 
-import {Banner, Navbar, Skills} from './page'
+import {Banner, Experience, Navbar, Skills} from './page'
 
 const App = () => {
   return (
@@ -8,6 +8,7 @@ const App = () => {
       <Navbar />
       <Banner />
       <Skills />
+      <Experience />
     </>
   )
 }
