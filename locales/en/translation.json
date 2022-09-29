@@ -18,5 +18,35 @@
   "button": {
     "translation": "ZH",
     "downloadCV": "Download CV"
+  },
+  "milestone": {
+    "5": {
+      "jobTitle": "Backend Engineer",
+      "company": "Ever Fortune. AI Co. Ltd.",
+      "interval": "2021/01 - Now",
+      "mainTask": "Data Engineering and Labeling Technology Applications.",
+      "tasks": [
+        "Familiar with search API with multiple queries based on <1>RESTful</1> designed, like aggregate function, having clause",
+        "Implement the concept of microservices by <1>Docker</1> Compose, each project communicates via API gateway",
+        "Connect Google OAuth 2.0 API for third-party login and <1>JWT</1> token for native login",
+        "Using <1>Alembic</1> toolkit for auto-generating database migrations",
+        "Realize the rollback of multiple data creation by <1>Redis</1> and sync primary key when sequence out of sync",
+        "Infrastructure testing using <1>Pytest</1> before deployments"
+      ]
+    },
+    "4": {
+      "jobTitle": "Backend Engineer",
+      "company": "Ever Fortune. AI Co. Ltd.",
+      "interval": "2021/01 - Now",
+      "mainTask": "Data Engineering and Labeling Technology Applications.",
+      "tasks": [
+        "Familiar with search API with multiple queries based on <1>RESTful</1> designed, like aggregate function, having clause",
+        "Implement the concept of microservices by <1>Docker</1> Compose, each project communicates via API gateway",
+        "Connect Google OAuth 2.0 API for third-party login and <1>JWT</1> token for native login",
+        "Using <1>Alembic</1> toolkit for auto-generating database migrations",
+        "Realize the rollback of multiple data creation by <1>Redis</1> and sync primary key when sequence out of sync",
+        "Infrastructure testing using <1>Pytest</1> before deployments"
+      ]
+    }
   }
 }

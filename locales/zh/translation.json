@@ -18,5 +18,11 @@
   "button": {
     "translation": "EN",
     "downloadCV": "下載我的履歷"
+  },
+  "milestone": {
+    "5": {
+      "jobTitle": "工程師",
+      "company": "長佳智能股份有限公司"
+    }
   }
 }
