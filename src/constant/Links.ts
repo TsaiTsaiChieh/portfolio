@@ -12,3 +12,12 @@ export const SocialHref: {[index: string]: string} = {
 export const Personality: {[index: string]: string} = {
   adventurer: 'https://www.16personalities.com/isfp-personality',
 }
+export const SkillHref: {[index: string]: string} = {
+  express: 'https://expressjs.com',
+  fastApi: 'https://fastapi.tiangolo.com',
+  firebase: 'https://firebase.google.com',
+  cheerio: 'https://cheerio.js.org',
+  rtk: 'https://redux-toolkit.js.org/tutorials/overview',
+  rtkQuery: 'https://redux-toolkit.js.org/rtk-query/overview',
+  styledComponent: 'https://styled-components.com',
+}
