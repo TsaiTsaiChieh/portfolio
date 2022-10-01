@@ -1,4 +1,4 @@
-import {useTranslation} from 'react-i18next'
+import {Trans, useTranslation} from 'react-i18next'
 import {DiGoogleCloudPlatform, DiMysql, DiReact} from 'react-icons/di'
 import {GiSpiderWeb} from 'react-icons/gi'
 import {IoLogoHtml5} from 'react-icons/io'
@@ -12,6 +12,7 @@ import {
   SiTsnode,
 } from 'react-icons/si'
 
+import {SkillHref} from '../../constant/Links'
 import {
   AnimatedBox,
   CardBody,
@@ -35,6 +36,41 @@ const Cards = () => {
         <DiMysql key={3} />,
         <GiSpiderWeb key={4} />,
       ],
+      details: (
+        <Trans
+          i18nKey='content.backendDetails'
+          components={{
+            1: (
+              <a
+                href={SkillHref.express}
+                target='_blank'
+                rel='noopener noreferrer'
+              />
+            ),
+            2: (
+              <a
+                href={SkillHref.fastApi}
+                target='_blank'
+                rel='noopener noreferrer'
+              />
+            ),
+            3: (
+              <a
+                href={SkillHref.firebase}
+                target='_blank'
+                rel='noopener noreferrer'
+              />
+            ),
+            4: (
+              <a
+                href={SkillHref.cheerio}
+                target='_blank'
+                rel='noopener noreferrer'
+              />
+            ),
+          }}
+        />
+      ),
     },
     {
       name: 'frontend',
@@ -45,6 +81,34 @@ const Cards = () => {
         <SiTsnode key={3} />,
         <IoLogoHtml5 key={4} />,
       ],
+      details: (
+        <Trans
+          i18nKey='content.frontendDetails'
+          components={{
+            1: (
+              <a
+                href={SkillHref.rtk}
+                target='_blank'
+                rel='noopener noreferrer'
+              />
+            ),
+            2: (
+              <a
+                href={SkillHref.rtkQuery}
+                target='_blank'
+                rel='noopener noreferrer'
+              />
+            ),
+            3: (
+              <a
+                href={SkillHref.styledComponent}
+                target='_blank'
+                rel='noopener noreferrer'
+              />
+            ),
+          }}
+        />
+      ),
     },
     {
       name: 'devOps',
@@ -55,6 +119,7 @@ const Cards = () => {
         <SiDocker key={3} />,
         <SiPm2 key={4} />,
       ],
+      details: t('content.devOpsDetails'),
     },
   ]
 
@@ -73,10 +138,7 @@ const Cards = () => {
             </SkillGroup>
             <CardBottom className={ele.name}>
               <CardLabel>{t(`title.${ele.name}`)}</CardLabel>
-              <CardDetails>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
-                voluptas labore, cum quaerat debitis quae sint ipsum
-              </CardDetails>
+              <CardDetails>{ele.details}</CardDetails>
             </CardBottom>
           </CardBody>
         </AnimatedBox>
