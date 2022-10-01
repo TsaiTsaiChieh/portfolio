@@ -78,6 +78,7 @@ export const SkillItem = styled.li`
     font-size: 18px;
     margin-left: 15px;
     letter-spacing: 1px;
+    font-weight: bold;
   }
   ${LG} {
     svg {
@@ -111,8 +112,12 @@ export const CardLabel = styled.label`
   }
 `
 export const CardDetails = styled.p`
-  line-height: 1.2rem;
+  line-height: 1.4rem;
   color: ${colors.black[100]};
+  letter-spacing: .5px;
+  a {
+    font-weight: bold;
+  }
 `
 export const Background = styled.img`
   content: url(${background});
