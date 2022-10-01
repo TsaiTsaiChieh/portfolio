@@ -6,4 +6,5 @@ type SkillTreeType = {
   name: string
   learnings: string[]
   icons: JSX.Element[]
+  details: JSX.Element
 }
