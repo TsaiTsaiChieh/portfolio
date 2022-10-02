@@ -23,6 +23,7 @@ import {
   SkillGroup,
   SkillItem,
 } from '../../styled/skills'
+import {aTag} from '../../utils/helper'
 
 const Cards = () => {
   const {t} = useTranslation()
@@ -39,36 +40,7 @@ const Cards = () => {
       details: (
         <Trans
           i18nKey='content.backendDetails'
-          components={{
-            1: (
-              <a
-                href={SkillHref.express}
-                target='_blank'
-                rel='noopener noreferrer'
-              />
-            ),
-            2: (
-              <a
-                href={SkillHref.fastApi}
-                target='_blank'
-                rel='noopener noreferrer'
-              />
-            ),
-            3: (
-              <a
-                href={SkillHref.firebase}
-                target='_blank'
-                rel='noopener noreferrer'
-              />
-            ),
-            4: (
-              <a
-                href={SkillHref.cheerio}
-                target='_blank'
-                rel='noopener noreferrer'
-              />
-            ),
-          }}
+          components={aTag(SkillHref.backend)}
         />
       ),
     },
@@ -84,29 +56,7 @@ const Cards = () => {
       details: (
         <Trans
           i18nKey='content.frontendDetails'
-          components={{
-            1: (
-              <a
-                href={SkillHref.rtk}
-                target='_blank'
-                rel='noopener noreferrer'
-              />
-            ),
-            2: (
-              <a
-                href={SkillHref.rtkQuery}
-                target='_blank'
-                rel='noopener noreferrer'
-              />
-            ),
-            3: (
-              <a
-                href={SkillHref.styledComponent}
-                target='_blank'
-                rel='noopener noreferrer'
-              />
-            ),
-          }}
+          components={aTag(SkillHref.frontend)}
         />
       ),
     },
@@ -119,7 +69,12 @@ const Cards = () => {
         <SiDocker key={3} />,
         <SiPm2 key={4} />,
       ],
-      details: t('content.devOpsDetails'),
+      details: (
+        <Trans
+          i18nKey='content.devOpsDetails'
+          components={aTag(SkillHref.devOps)}
+        />
+      ),
     },
   ]
 
