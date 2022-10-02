@@ -14,9 +14,9 @@
   },
   "content": {
     "introduction": "I'm a self-taught full-stack and detailed-oriented engineer.<br>I like to solve problems by coding and keep on writing clean and stable code. <br/>I'm also an <1><2>Adventurer</2></1>, always curious about new technologies and willing to share.<br/>I'm sensitive to others' emotions, try to establish harmony, and minimize conflict.",
-    "backendDetails": "Two years and one year of experience with <1>NodeJS/Express</1> and <2>Python/FastAPI</2> respectively. Almost use SQL-like databases, utilize indexes frequently to speed up query efficiency, and also used <3>Firebase</3> for chat room development. Apply <4>cheerio</4> to crawl  live scores of games information.",
-    "frontendDetails": "I've experience in ReactJS for half a year. Make good use of <1>Redux Toolkit</1> to centrally manage the state and cooperate with <2>RTK Query</2> to simplify the code for loading API data. And I'm used to using Typescript for JS development. Has the basic ability of HTML/CSS, often used <3>styled-component</3> to develop component.",
-    "devOpsDetails": "More familiar with AWS cloud services, used with <1>EC2</1>, <2>S3</2>, <3>RDS</3>, etc., and set up <4>CodeDeploy</4> to automatically deploy code. Apply <5>GCE</5> to manage virtual machines and scheduling, and cooperate with <6>PM2</6> to manage multiple NodeJS processes. Utilize <7 >Docker-Compose</7> to build backend and frontend services."
+    "backendDetails": "Two years and one year of experience with <0>NodeJS/Express</0> and <1>Python/FastAPI</1> respectively. Almost use SQL-like databases, utilize indexes frequently to speed up query efficiency, and also used <2>Firebase</2> for chat room development. Apply <3>cheerio</3> to crawl  live scores of games information.",
+    "frontendDetails": "I've experience in ReactJS for half a year. Make good use of <0>Redux Toolkit</0> to centrally manage the state and cooperate with <1>RTK Query</1> to simplify the code for loading API data. And I'm used to using Typescript for JS development. Has the basic ability of HTML/CSS, often used <2>styled-component</2> to develop component.",
+    "devOpsDetails": "More familiar with AWS cloud services, used with <0>EC2</0>, <1>S3</1>, <2>RDS</2>, etc., and set up <3>CodeDeploy</3> to automatically deploy code. Apply <4>GCE</4> to manage virtual machines and scheduling, and cooperate with <5>PM2</5> to manage multiple NodeJS processes. Utilize <6>Docker-Compose</6> to build backend and frontend services."
   },
   "button": {
     "translation": "ZH",
