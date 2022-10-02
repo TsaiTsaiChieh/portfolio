@@ -16,7 +16,7 @@
     "introduction": "我是個自學能力強且注重細節的全端工程師。<br/>喜歡透過程式來解決問題，並撰寫乾淨且穩定的程式碼。<br/>我也擁有<1><2>冒險家</2></1>的精神，總是對新技術充滿好奇並樂於分享所學。<br/>同時我對他人的情緒敏感，常努力建立和諧關係，盡量減少衝突的發生。",
     "backendDetails": "<0>NodeJS/Express</0> 的經驗約兩年；<1>Python/FastAPI</1> 的經驗一年。大多使用 SQL 類型的資料庫，並善用索引來加快查詢效率，也使用過 <2>Firebase</2> 進行聊天室的開發。爬蟲則使用 <3>cheerio</3> 來爬取運動比賽的即時比分等資訊。",
     "frontendDetails": "React 的經驗約半年，並善用 <0>Redux Toolkit</0> 將狀態集中管理，而配合 <1>RTK Query</1> 可簡化載入 API 資料的程式碼，也習慣以 Typescript 來作 JS 的開發。已有 HTML/CSS 切版的基礎能力，經常使用 <2>styled-component</2> 開發元件。",
-    "devOpsDetails": "較擅長 AWS 的雲端服務，用過 <0>EC2</0>、<1>S3</1>、<2>RDS</2> 等服務，並設定過 <3>CodeDeploy</3> 讓程式碼可自動部署。GCP 則用過 <4>GCE</4> 來管理虛擬機器和排程，並搭配 <5>PM2</5> 來管理多個 NodeJS 的程序。Docker 則使用過 <6>Docker-Compose</6> 來搭建前後端服務。"
+    "devOpsDetails": "較擅長 AWS 的雲端服務，使用過 <0>EC2</0>、<1>S3</1>、<2>RDS</2> 等服務，也會設定 <3>CodeDeploy</3> 讓程式碼可自動部署。使用 <4>GCE</4> 來管理虛擬機器和排程，並搭配 <5>PM2</5> 來管理多個 NodeJS 的程序。Docker 則使用 <6>Docker-Compose</6> 來搭建前後端服務。"
   },
   "button": {
     "translation": "EN",
