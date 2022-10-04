@@ -14,6 +14,9 @@ export const Section = styled.section`
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  ${MD} {
+    height: 100vh;
+  }
 `
 export const DescriptionContainer = styled.div`
   width: 100%;

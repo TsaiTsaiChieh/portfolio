@@ -26,6 +26,7 @@ export const Brand = styled.a`
 `
 export const Logo = styled.img`
   content: url(${logo});
+  width: 170px;
 `
 export const Toggle = styled.button`
   padding: 10px;

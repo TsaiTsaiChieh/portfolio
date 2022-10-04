@@ -13,7 +13,7 @@ export const Container = styled.div`
   justify-content: flex-start;
   flex-wrap: inherit;
   position: relative;
-  padding: 0 25px;
+  padding: 0 5%;
   ${SM} {
     max-width: 540px;
   }
