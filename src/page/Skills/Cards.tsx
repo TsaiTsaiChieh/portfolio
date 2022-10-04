@@ -26,7 +26,7 @@ import {
 import {aTag} from '../../utils/helper'
 
 const Cards = () => {
-  const {t} = useTranslation()
+  const {t, i18n} = useTranslation()
   const SkillTree: SkillTreeType[] = [
     {
       name: 'backend',
@@ -82,7 +82,7 @@ const Cards = () => {
     <CardContainer>
       {SkillTree.map((ele) => (
         <AnimatedBox key={ele.name}>
-          <CardBody>
+          <CardBody $language={i18n.language}>
             <SkillGroup>
               {ele.icons.map((icon, idx) => (
                 <SkillItem key={idx} className={ele.name}>

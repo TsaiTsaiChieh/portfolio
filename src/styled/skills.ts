@@ -1,18 +1,22 @@
 import styled from 'styled-components'
 
 import background from '../asset/img/color-sharp2.png'
-import {LG} from '../constant/Mixin'
+import {Language} from '../constant/Enum'
+import {LG, MD, XL, XXL} from '../constant/Mixin'
 import {colors} from '../constant/Variables'
 import {AnimationBox} from './base'
 
 export const Section = styled.section`
-  height: auto;
+  height: 100%;
   background: ${colors.black[50]};
   display: flex;
   position: relative;
   overflow: hidden;
   padding: 105px 0;
   z-index:10;
+  ${MD} {
+    height: 100vh;
+  }
   ${LG} {
     padding: 130px 0;
   }
@@ -46,7 +50,7 @@ export const AnimatedBox = styled(AnimationBox)`
     height: 100%;
   }
 `
-export const CardBody = styled.li`
+export const CardBody = styled.li<{$language: string}>`
   width: 100%;
   height: 100%;
   position: relative;
@@ -56,6 +60,16 @@ export const CardBody = styled.li`
   background: ${colors.black[60]};
   z-index: 10;
   overflow: hidden;
+  ${LG} {
+    height: ${(props) => props.$language === Language.ZH ? '674px' : '730px'};
+  }
+  ${XL} {
+    height: ${(props) => props.$language === Language.ZH ? '629px' : '696px'};
+  }
+  ${XXL} {
+    height: ${(props) => props.$language === Language.ZH ? '606px' : '650px'};
+  }
+
 `
 export const SkillGroup = styled.ul`
   display: flex;
@@ -87,6 +101,7 @@ export const SkillItem = styled.li`
   }
 `
 export const CardBottom = styled.div`
+  height: 100%;
   display: flex;
   flex-direction: column;
   padding: 20px;
