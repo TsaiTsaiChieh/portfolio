@@ -2,7 +2,7 @@ const sm: number = 576
 const md: number = 768
 const lg: number = 992
 const xl: number = 1200
-const xxl: number = 1320
+const xxl: number = 1400
 
 export const XXL = `@media all and (min-width: ${xxl}px)`
 export const XL = `@media all and (min-width: ${xl}px)`
