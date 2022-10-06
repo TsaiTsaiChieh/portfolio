@@ -1,5 +1,4 @@
 import Lottie from 'lottie-react'
-import React from 'react'
 
 import astronaut from '../../asset/img/astronaut-operating-laptop.json'
 import {AstronautContainer, Planet} from '../../styled/banner'
