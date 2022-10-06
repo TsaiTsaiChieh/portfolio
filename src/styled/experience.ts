@@ -55,6 +55,7 @@ export const JobAndCompany = styled.div`
   font-weight: bold;
   font-size: 22px;
   position: relative;
+  border: none;
   img {
     position: absolute;
     left: -133px;
