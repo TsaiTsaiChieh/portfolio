@@ -23,9 +23,9 @@
     "downloadCV": "Download CV"
   },
   "milestone": {
-    "5": {
+    "7": {
       "jobTitle": "Backend Engineer",
-      "company": "Ever Fortune. AI Co. Ltd.",
+      "company": "Ever Fortune. AI",
       "interval": "2021/01 - Now",
       "mainTask": "Data Engineering and Labeling Technology Applications.",
       "tasks": [
@@ -37,18 +37,76 @@
         "Infrastructure testing using <1>Pytest</1> before deployments"
       ]
     },
-    "4": {
+    "6": {
       "jobTitle": "Backend Engineer",
-      "company": "Ever Fortune. AI Co. Ltd.",
-      "interval": "2021/01 - Now",
-      "mainTask": "Data Engineering and Labeling Technology Applications.",
+      "company": "Gets-info (Startup)",
+      "interval": "2019/11 - 2020/10",
+      "mainTask": "A platform that provides sports lottery analysis and predictions.",
       "tasks": [
-        "Familiar with search API with multiple queries based on <1>RESTful</1> designed, like aggregate function, having clause",
-        "Implement the concept of microservices by <1>Docker</1> Compose, each project communicates via API gateway",
-        "Connect Google OAuth 2.0 API for third-party login and <1>JWT</1> token for native login",
-        "Using <1>Alembic</1> toolkit for auto-generating database migrations",
-        "Realize the rollback of multiple data creation by <1>Redis</1> and sync primary key when sequence out of sync",
-        "Infrastructure testing using <1>Pytest</1> before deployments"
+        "Import <1>AJV</1> validation for input and redesign the project structure",
+        "Chat room development with firebase realtime database",
+        "Stable and clean code writing for APIs and scheduling",
+        "Track and recovery other senior engineers error and refactor code"
+      ]
+    },
+    "5": {
+      "jobTitle": "Backend Trainee",
+      "company": "AppWorks School",
+      "interval": "2019/06 - 2019/10",
+      "mainTask": "",
+      "tasks": [
+        "Built engineering mindset and problem-solving skills through 1000+ hours of immersive training and completed the backend project «Lover Never Stray»",
+        "Enhanced communication skill through collaboration with Front-End and iOS members on «Stylish»",
+        "Adopted Agile and Scrum Methodology on the personal project development to deliver features on time"
+      ]
+    },
+    "4": {
+      "jobTitle": "Research Assistant",
+      "company": "National Chiao Tung University",
+      "interval": "2019/03 - 2019/06",
+      "mainTask": "",
+      "tasks": [
+        "Wrote the paper based on Machine Learning for computer-aided diagnosis and prepared the submission to international journals"
+      ]
+    },
+    "3": {
+      "jobTitle": "R&D Assistant engineer",
+      "company": "Ever Fortune. AI",
+      "interval": "2018/11 - 2019/02",
+      "mainTask": "",
+      "tasks": [
+        "Adjusted deep learning models and parameters with Python",
+        "Established x-ray labeling system for doctors"
+      ]
+    },
+    "2": {
+      "jobTitle": "M.S.",
+      "company": "National Chiao Tung University",
+      "interval": "2016/09 - 2018/08",
+      "mainTask": "Bioinformatics and Systems Biology",
+      "tasks": [
+        "4.1/4.3 GPA",
+        "Main courses: «Machine Learning», «Image Processing»"
+      ]
+    },
+    "1": {
+      "jobTitle": "Trainee",
+      "company": "Wanin International",
+      "interval": "2016/02 - 2016/06",
+      "mainTask": "internship hours: 551 hours",
+      "tasks": [
+        "Developed the bee and Rockman games in C# language with Unity, learned game design concepts such as scenes, cameras, etc."
+      ]
+    },
+    "0": {
+      "jobTitle": "B.S.",
+      "company": "Feng Chia University",
+      "interval": "2012/09 - 2016/06",
+      "mainTask": "Engineering and Computer Science",
+      "tasks": [
+        "3.8/4 GPA",
+        "The Phi Tau Phi Scholastic Honor Society Honorary member",
+        "Academic Excellence Award (top 5% of class in semester) four times"
       ]
     }
   }
