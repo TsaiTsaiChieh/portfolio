@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 import background from '../asset/img/color-sharp1.png'
+import linkIcon from '../asset/img/link.png'
 import {LG} from '../constant/Mixin'
 import {colors} from '../constant/Variables'
 
@@ -63,6 +64,7 @@ export const JobAndCompany = styled.div`
     height: 80px;
     background: white;
     border-radius: 50%;
+    cursor: pointer;
   }
 `
 export const TaskWrap = styled.ul`
@@ -70,14 +72,18 @@ export const TaskWrap = styled.ul`
   flex-direction: column;
   align-items: flex-start;
   font-size: 16px;
-  li:before {
-    content: "";
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    background: white;
-    border-radius: 50%;
-    vertical-align: 5%;
-    margin-right: 8px;
+  list-style-type: disc;
+`
+export const LinkWrap = styled.ul`
+  display: flex;
+  gap: 30px;
+  li {
+    text-decoration: underline;
   }
+`
+export const LinkIcon = styled.img`
+  content: url(${linkIcon});
+  width: 15px;
+  margin-left: 5px;
+  margin-bottom: 5px;
 `
