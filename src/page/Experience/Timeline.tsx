@@ -1,12 +1,21 @@
 import {Trans} from 'react-i18next'
 
-import {JobAndCompany, MilestoneWrap, TaskWrap} from '../../styled/experience'
+import {ExperienceHref} from '../../constant/Links'
+import {
+  JobAndCompany,
+  LinkIcon,
+  LinkWrap,
+  MilestoneWrap,
+  TaskWrap,
+} from '../../styled/experience'
+import {aTag} from '../../utils/helper'
 
 interface Props {
   milestone: any
 }
 const Timeline = ({milestone}: Props) => {
-  const {jobTitle, company, interval, icon, mainTask, tasks} = milestone
+  const {idx, jobTitle, company, interval, icon, mainTask, tasks, links} =
+    milestone
 
   return (
     <MilestoneWrap>
@@ -24,6 +33,16 @@ const Timeline = ({milestone}: Props) => {
           </li>
         ))}
       </TaskWrap>
+      <LinkWrap>
+        {
+          links.map((ele: any, i: number) => (
+            ele !== '' ?
+              (<li key={i}>
+                <Trans i18nKey={ele} components={aTag(ExperienceHref[idx])} />
+                <LinkIcon />
+              </li>
+              ) : null))}
+      </LinkWrap>
     </MilestoneWrap>
   )
 }
