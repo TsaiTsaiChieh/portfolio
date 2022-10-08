@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 export const NavbarHref: {[index: string]: string} = {
   home: '#home',
   skills: '#skills',
@@ -35,4 +36,16 @@ export const SkillHref: {[skill in SkillCategory]: string[]} = {
     'https://pm2.keymetrics.io',
     'https://docs.docker.com/compose',
   ],
+}
+export const ExperienceHref: {[index: string]: string[]} = {
+  '0': [],
+  '1': [],
+  '2': [
+    'https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22107NCTU5112002%22.&searchmode=basic',
+  ],
+  '3': [],
+  '4': [],
+  '5': [],
+  '6': ['https://github.com/TsaiTsaiChieh/sport-api', 'https://github.com/TsaiTsaiChieh/sport-crawler'],
+  '7': [],
 }
