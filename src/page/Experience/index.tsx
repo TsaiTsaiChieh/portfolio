@@ -1,15 +1,15 @@
 import {useTranslation} from 'react-i18next'
 
+import appWorks from '../../asset/img/appWorks.png'
 import everFortune from '../../asset/img/everFortune.png'
+import fcu from '../../asset/img/fcu.png'
+import getsInfo from '../../asset/img/getsInfo.jpg'
+import nctu from '../../asset/img/nctu.png'
+import wanin from '../../asset/img/wanin.jpg'
 import {NavbarHref} from '../../constant/Links'
 import {Col, Container} from '../../styled/base'
 import {Background, Section, Title} from '../../styled/experience'
 import Timeline from './Timeline'
-import getsInfo from '../../asset/img/getsInfo.jpg'
-import appWorks from '../../asset/img/appWorks.png'
-import nctu from '../../asset/img/nctu.png'
-import wanin from '../../asset/img/wanin.jpg'
-import fcu from '../../asset/img/fcu.png'
 
 const Experience = () => {
   const {t} = useTranslation()
