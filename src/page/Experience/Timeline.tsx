@@ -3,7 +3,7 @@ import {Trans} from 'react-i18next'
 import {JobAndCompany, MilestoneWrap, TaskWrap} from '../../styled/experience'
 
 interface Props {
-  milestone: any;
+  milestone: any
 }
 const Timeline = ({milestone}: Props) => {
   const {jobTitle, company, interval, icon, mainTask, tasks} = milestone
