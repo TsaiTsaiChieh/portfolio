@@ -19,3 +19,6 @@ type MilestoneType = {
   links: string[]
   tags: string[]
 }
+type ProjectItemType = {
+  name: string
+}
