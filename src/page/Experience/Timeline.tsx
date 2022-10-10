@@ -6,15 +6,17 @@ import {
   LinkIcon,
   LinkWrap,
   MilestoneWrap,
+  SkillTag,
+  TagWrap,
   TaskWrap,
 } from '../../styled/experience'
-import {aTag} from '../../utils/helper'
+import {aTag, tagColor} from '../../utils/helper'
 
 interface Props {
   milestone: any
 }
 const Timeline = ({milestone}: Props) => {
-  const {idx, jobTitle, company, interval, icon, mainTask, tasks, links} =
+  const {idx, jobTitle, company, interval, icon, mainTask, tasks, links, tags} =
     milestone
 
   return (
@@ -43,6 +45,12 @@ const Timeline = ({milestone}: Props) => {
               </li>
               ) : null))}
       </LinkWrap>
+      <TagWrap>
+        {tags.map((ele: any, i: number) => (
+          ele !== '' ?
+            (<SkillTag key={i} color={tagColor(ele)}>{ele}</SkillTag>) : null),
+        )}
+      </TagWrap>
     </MilestoneWrap>
   )
 }
