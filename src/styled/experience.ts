@@ -87,3 +87,18 @@ export const LinkIcon = styled.img`
   margin-left: 5px;
   margin-bottom: 5px;
 `
+export const TagWrap = styled.ul`
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+`
+export const SkillTag = styled.li<{color: string}>`
+  background: ${(props) => props.color};
+  font-style: italic;
+  font-size: 12px;
+  padding: 0px 5px;
+  border-radius: 10px;
+  &::before {
+    content: "#";
+  }
+`
