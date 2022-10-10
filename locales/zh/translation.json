@@ -22,10 +22,124 @@
     "translation": "EN",
     "downloadCV": "下載我的履歷"
   },
-  "milestone": {
-    "5": {
+  "milestone": [
+    {
+      "icon": "everFortune",
       "jobTitle": "工程師",
-      "company": "長佳智能股份有限公司"
+      "company": "長佳智能",
+      "interval": "109/01 - 現今",
+      "mainTask": "資料工程和標記應用系統",
+      "tasks": [
+        "熟悉基於 <1>RESTful</1> 概念來設計多重查詢的 API，如聚合函數和 Having 子句的條件查詢",
+        "透過 <1>Docker-Compose</1>來實現微服務的概念，專案間可藉由 API 通道進行溝通",
+        "串接 Google OAuth 2.0 進行第三方登入和 <1>JWT</1> token 實現傳統的帳號密碼登入",
+        "使用 <1>Alembic</1> 套件自動生成資料庫遷移",
+        "使用 <1>Redis</1> 來實現創建多重資料的回滾",
+        "在部署前使用 <1>Pytest</1> 進行測試"
+      ],
+      "links": [""],
+      "tags": [
+        "Python",
+        "PostgreSQL",
+        "Typescript",
+        "React",
+        "Redux",
+        "HTML/CSS",
+        "Docker"
+      ]
+    },
+    {
+      "icon": "getsInfo",
+      "jobTitle": "後端工程師",
+      "company": "搞之訊科技 (新創)",
+      "interval": "108/11 - 109/10",
+      "mainTask": "運動彩券分析和預測平台",
+      "tasks": [
+        "導入 <1>AJV</1> 套件驗證資料的輸入和重構專案的檔案架構",
+        "使用 firebase 的即時資料庫開發聊天室",
+        "為 API 和排程撰寫穩定且乾淨的程式碼",
+        "修復資深工程師的錯誤和程式碼重構"
+      ],
+      "links": ["<0>APIs</0>", "<1>排程</1>"],
+      "tags": ["NodeJS", "Firebase", "NoSQL", "MySQL", "GCP", "PM2"]
+    },
+    {
+      "icon": "appWorks",
+      "jobTitle": "後端實習生",
+      "company": "AppWorks School",
+      "interval": "108/06 - 108/10",
+      "mainTask": "",
+      "tasks": [
+        "透過 1000 小時沈浸式的培訓，建立了工程思維和解決問題的能力，並完成了“讓愛不流浪”專案",
+        "透過“Stylish”專案與前端和 iOS 成員合作，增加溝通的技巧",
+        "在個人專案中採用敏捷和 Scrum 方法，在期限內完成所有功能"
+      ],
+      "links": ["Stylish", "讓愛不流浪"],
+      "tags": ["NodeJS", "MySQL", "HTML/CSS", "AWS"]
+    },
+    {
+      "icon": "nctu",
+      "jobTitle": "研究助理",
+      "company": "國立交通大學",
+      "interval": "108/03 - 108/06",
+      "mainTask": "",
+      "tasks": ["撰寫基於機器學習的電腦輔助診斷系統的論文，並準備投至國際期刊"],
+      "links": [""],
+      "tags": [""]
+    },
+    {
+      "icon": "everFortune",
+      "jobTitle": "研發助理工程師",
+      "company": "長佳智能",
+      "interval": "107/11 - 108/02",
+      "mainTask": "",
+      "tasks": [
+        "使用 Python 調整深度學習模型的參數",
+        "為醫生建立 X 光的標記系統"
+      ],
+      "links": [""],
+      "tags": ["Python"]
+    },
+    {
+      "icon": "nctu",
+      "jobTitle": "理學碩士",
+      "company": "國立交通大學",
+      "interval": "105/09 - 107/08",
+      "mainTask": "生物資訊及系統生物",
+      "tasks": [
+        "4.1/4.3 成績平均績點",
+        "主要修習課程：機器學習、影像處理",
+        "發佈論文 〈研發創新的癌症計分卡方法從淋巴結病理切片來預測大腸癌的轉移〉，使用遺傳演算法結合田口法，可量化大腸淋巴結的轉移程度"
+      ],
+      "links": ["論文"],
+      "tags": [""]
+    },
+    {
+      "icon": "wanin",
+      "jobTitle": "程式設計實習生",
+      "company": "網銀國際",
+      "interval": "105/02 - 105/06",
+      "mainTask": "實習時數: 551 小時",
+      "tasks": [
+        "使用 JAVA 來開發安卓手機的拼圖遊戲",
+        "使用 Unity 和 C# 來開發小蜜蜂和洛克人等遊戲，學習場景和相機等設計遊戲的概念"
+      ],
+      "links": [""],
+      "tags": [""]
+    },
+    {
+      "icon": "fcu",
+      "jobTitle": "理學學士",
+      "company": "逢甲大學",
+      "interval": "101/09 - 105/06",
+      "mainTask": "資訊工程學系",
+      "tasks": [
+        "3.8/4 成績平均績點",
+        "為中華民國婓陶婓榮譽學會學員",
+        "四次榮獲書卷獎（每學期成績前 5% 的學生）"
+      ],
+      "links": [""],
+      "tags": [""]
     }
-  }
+  ]
 }

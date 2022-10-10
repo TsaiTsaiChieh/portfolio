@@ -22,22 +22,34 @@
     "translation": "ZH",
     "downloadCV": "Download CV"
   },
-  "milestone": {
-    "7": {
+  "milestone": [
+    {
+      "icon": "everFortune",
       "jobTitle": "Backend Engineer",
       "company": "Ever Fortune. AI",
       "interval": "2021/01 - Now",
       "mainTask": "Data Engineering and Labeling Technology Applications.",
       "tasks": [
         "Familiar with search API with multiple queries based on <1>RESTful</1> designed, like aggregate function, having clause",
-        "Implement the concept of microservices by <1>Docker</1> Compose, each project communicates via API gateway",
+        "Implement the concept of microservices by <1>Docker-Compose</1> , each project communicates via API gateway",
         "Connect Google OAuth 2.0 API for third-party login and <1>JWT</1> token for native login",
         "Using <1>Alembic</1> toolkit for auto-generating database migrations",
-        "Realize the rollback of multiple data creation by <1>Redis</1> and sync primary key when sequence out of sync",
+        "Realize the rollback of multiple data creation by <1>Redis</1>",
         "Infrastructure testing using <1>Pytest</1> before deployments"
+      ],
+      "links": [""],
+      "tags": [
+        "Python",
+        "PostgreSQL",
+        "Typescript",
+        "React",
+        "Redux",
+        "HTML/CSS",
+        "Docker"
       ]
     },
-    "6": {
+    {
+      "icon": "getsInfo",
       "jobTitle": "Backend Engineer",
       "company": "Gets-info (Startup)",
       "interval": "2019/11 - 2020/10",
@@ -46,10 +58,13 @@
         "Import <1>AJV</1> validation for input and redesign the project structure",
         "Chat room development with firebase realtime database",
         "Stable and clean code writing for APIs and scheduling",
-        "Track and recovery other senior engineers error and refactor code"
-      ]
+        "Recovery other senior engineers error and refactor code"
+      ],
+      "links": ["<0>APIs</0>", "<1>Scheduling</1>"],
+      "tags": ["NodeJS", "Firebase", "NoSQL", "MySQL", "GCP", "PM2"]
     },
-    "5": {
+    {
+      "icon": "appWorks",
       "jobTitle": "Backend Trainee",
       "company": "AppWorks School",
       "interval": "2019/06 - 2019/10",
@@ -58,18 +73,24 @@
         "Built engineering mindset and problem-solving skills through 1000+ hours of immersive training and completed the backend project «Lover Never Stray»",
         "Enhanced communication skill through collaboration with Front-End and iOS members on «Stylish»",
         "Adopted Agile and Scrum Methodology on the personal project development to deliver features on time"
-      ]
+      ],
+      "links": ["<0>Stylish</0>", "<1>Love Never Stray</1>"],
+      "tags": ["NodeJS", "MySQL", "HTML/CSS", "AWS"]
     },
-    "4": {
+    {
+      "icon": "nctu",
       "jobTitle": "Research Assistant",
       "company": "National Chiao Tung University",
       "interval": "2019/03 - 2019/06",
       "mainTask": "",
       "tasks": [
-        "Wrote the paper based on Machine Learning for computer-aided diagnosis and prepared the submission to international journals"
-      ]
+        "Wrote a paper based on Machine Learning for computer-aided diagnosis and prepared the submission to international journals"
+      ],
+      "links": [""],
+      "tags": [""]
     },
-    "3": {
+    {
+      "icon": "everFortune",
       "jobTitle": "R&D Assistant engineer",
       "company": "Ever Fortune. AI",
       "interval": "2018/11 - 2019/02",
@@ -77,29 +98,40 @@
       "tasks": [
         "Adjusted deep learning models and parameters with Python",
         "Established x-ray labeling system for doctors"
-      ]
+      ],
+      "links": [""],
+      "tags": ["Python"]
     },
-    "2": {
-      "jobTitle": "M.S.",
+    {
+      "icon": "nctu",
+      "jobTitle": "Master of Science",
       "company": "National Chiao Tung University",
       "interval": "2016/09 - 2018/08",
       "mainTask": "Bioinformatics and Systems Biology",
       "tasks": [
         "4.1/4.3 GPA",
-        "Main courses: «Machine Learning», «Image Processing»"
-      ]
+        "Main courses: «Machine Learning», «Image Processing»",
+        "Published thesis «Developing a novel cancer scoring card method for predicting metastasis of colorectal cancer from lymph node biopsy», used the Genetic algorithm combined with the Taguchi method which can quantify the degree of lymph node metastasis of colorectal cancer."
+      ],
+      "links": ["<0>Thesis</0>"],
+      "tags": [""]
     },
-    "1": {
-      "jobTitle": "Trainee",
+    {
+      "icon": "wanin",
+      "jobTitle": "Programming Intern",
       "company": "Wanin International",
       "interval": "2016/02 - 2016/06",
-      "mainTask": "internship hours: 551 hours",
+      "mainTask": "Internship hours: 551 hours",
       "tasks": [
+        "Using JAVA to develop jigsaw puzzles for Android phones",
         "Developed the bee and Rockman games in C# language with Unity, learned game design concepts such as scenes, cameras, etc."
-      ]
+      ],
+      "links": [""],
+      "tags": [""]
     },
-    "0": {
-      "jobTitle": "B.S.",
+    {
+      "icon": "fcu",
+      "jobTitle": "Bachelor of Science",
       "company": "Feng Chia University",
       "interval": "2012/09 - 2016/06",
       "mainTask": "Engineering and Computer Science",
@@ -107,7 +139,9 @@
         "3.8/4 GPA",
         "The Phi Tau Phi Scholastic Honor Society Honorary member",
         "Academic Excellence Award (top 5% of class in semester) four times"
-      ]
+      ],
+      "links": [""],
+      "tags": [""]
     }
-  }
+  ]
 }
