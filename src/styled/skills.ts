@@ -19,17 +19,6 @@ export const Section = styled.section`
     padding: 130px 0;
   }
 `
-export const Title = styled.h2`
-  width: 100%;
-  font-size: 45px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-align: center;
-  margin-bottom: 40px;
-  &::first-letter {
-    text-transform: uppercase;
-  }
-`
 export const CardContainer = styled.ul`
   display: flex;
   flex-direction: column;

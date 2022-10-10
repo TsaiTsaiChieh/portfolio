@@ -1,8 +1,8 @@
 import {useTranslation} from 'react-i18next'
 
 import {NavbarHref} from '../../constant/Links'
-import {Col, Container} from '../../styled/base'
-import {Background, Section, Title} from '../../styled/skills'
+import {Col, Container, Title} from '../../styled/base'
+import {Background, Section} from '../../styled/skills'
 import Cards from './Cards'
 
 const Skills = () => {
