@@ -22,8 +22,9 @@
     "translation": "EN",
     "downloadCV": "下載我的履歷"
   },
-  "milestone": {
-    "7": {
+  "milestone": [
+    {
+      "icon": "everFortune",
       "jobTitle": "工程師",
       "company": "長佳智能",
       "interval": "109/01 - 現今",
@@ -47,7 +48,8 @@
         "Docker"
       ]
     },
-    "6": {
+    {
+      "icon": "getsInfo",
       "jobTitle": "後端工程師",
       "company": "搞之訊科技 (新創)",
       "interval": "108/11 - 109/10",
@@ -61,7 +63,8 @@
       "links": ["<0>APIs</0>", "<1>排程</1>"],
       "tags": ["NodeJS", "Firebase", "NoSQL", "MySQL", "GCP", "PM2"]
     },
-    "5": {
+    {
+      "icon": "appWorks",
       "jobTitle": "後端實習生",
       "company": "AppWorks School",
       "interval": "108/06 - 108/10",
@@ -74,7 +77,8 @@
       "links": ["Stylish", "讓愛不流浪"],
       "tags": ["NodeJS", "MySQL", "HTML/CSS", "AWS"]
     },
-    "4": {
+    {
+      "icon": "nctu",
       "jobTitle": "研究助理",
       "company": "國立交通大學",
       "interval": "108/03 - 108/06",
@@ -83,7 +87,8 @@
       "links": [""],
       "tags": [""]
     },
-    "3": {
+    {
+      "icon": "everFortune",
       "jobTitle": "研發助理工程師",
       "company": "長佳智能",
       "interval": "107/11 - 108/02",
@@ -93,9 +98,10 @@
         "為醫生建立 X 光的標記系統"
       ],
       "links": [""],
-      "tags": [""]
+      "tags": ["Python"]
     },
-    "2": {
+    {
+      "icon": "nctu",
       "jobTitle": "理學碩士",
       "company": "國立交通大學",
       "interval": "105/09 - 107/08",
@@ -105,9 +111,11 @@
         "主要修習課程：機器學習、影像處理",
         "發佈論文 〈研發創新的癌症計分卡方法從淋巴結病理切片來預測大腸癌的轉移〉，使用遺傳演算法結合田口法，可量化大腸淋巴結的轉移程度"
       ],
-      "links": ["論文"]
+      "links": ["論文"],
+      "tags": [""]
     },
-    "1": {
+    {
+      "icon": "wanin",
       "jobTitle": "程式設計實習生",
       "company": "網銀國際",
       "interval": "105/02 - 105/06",
@@ -119,7 +127,8 @@
       "links": [""],
       "tags": [""]
     },
-    "0": {
+    {
+      "icon": "fcu",
       "jobTitle": "理學學士",
       "company": "逢甲大學",
       "interval": "101/09 - 105/06",
@@ -132,5 +141,5 @@
       "links": [""],
       "tags": [""]
     }
-  }
+  ]
 }

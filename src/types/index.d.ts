@@ -9,3 +9,13 @@ type SkillTreeType = {
   icons: JSX.Element[]
   details: JSX.Element
 }
+type MilestoneType = {
+  jobTitle: string
+  company: string
+  interval: string
+  icon: string
+  mainTask: string
+  tasks: string[]
+  links: string[]
+  tags: string[]
+}

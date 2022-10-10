@@ -13,16 +13,17 @@ import {
 import {aTag, tagColor} from '../../utils/helper'
 
 interface Props {
-  milestone: any
+  idx: number
+  milestone: MilestoneType
 }
-const Timeline = ({milestone}: Props) => {
-  const {idx, jobTitle, company, interval, icon, mainTask, tasks, links, tags} =
+const Timeline = ({idx, milestone}: Props) => {
+  const {jobTitle, company, interval, icon, mainTask, tasks, links, tags} =
     milestone
 
   return (
     <MilestoneWrap>
       <JobAndCompany>
-        <img src={icon} alt='icon' />
+        <img src={require(`../../asset/img/${icon}.png`)} alt='icon' />
         <span>{jobTitle}</span>
         <span>{company}</span>
       </JobAndCompany>
@@ -36,19 +37,22 @@ const Timeline = ({milestone}: Props) => {
         ))}
       </TaskWrap>
       <LinkWrap>
-        {
-          links.map((ele: any, i: number) => (
-            ele !== '' ?
-              (<li key={i}>
-                <Trans i18nKey={ele} components={aTag(ExperienceHref[idx])} />
-                <LinkIcon />
-              </li>
-              ) : null))}
+        {links.map((ele: any, i: number) =>
+          ele !== '' ? (
+            <li key={i}>
+              <Trans i18nKey={ele} components={aTag(ExperienceHref[idx])} />
+              <LinkIcon />
+            </li>
+          ) : null,
+        )}
       </LinkWrap>
       <TagWrap>
-        {tags.map((ele: any, i: number) => (
-          ele !== '' ?
-            (<SkillTag key={i} color={tagColor(ele)}>{ele}</SkillTag>) : null),
+        {tags.map((ele: any, i: number) =>
+          ele !== '' ? (
+            <SkillTag key={i} color={tagColor(ele)}>
+              {ele}
+            </SkillTag>
+          ) : null,
         )}
       </TagWrap>
     </MilestoneWrap>
