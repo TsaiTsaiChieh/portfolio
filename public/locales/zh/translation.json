@@ -141,5 +141,10 @@
       "links": [""],
       "tags": [""]
     }
+  ],
+  "projects": [
+    { "name": "讓愛不流浪" },
+    { "name": "Sweetaste" },
+    { "name": "chatTalker" }
   ]
 }

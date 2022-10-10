@@ -143,5 +143,10 @@
       "links": [""],
       "tags": [""]
     }
+  ],
+  "projects": [
+    { "name": "Never Stray" },
+    { "name": "Sweetaste" },
+    { "name": "chatTalker" }
   ]
 }
