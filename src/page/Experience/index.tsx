@@ -23,6 +23,7 @@ const Experience = () => {
       mainTask: t('milestone.7.mainTask'),
       tasks: t('milestone.7.tasks', {returnObjects: true}),
       links: t('milestone.7.links', {returnObjects: true}),
+      tags: t('milestone.7.tags', {returnObjects: true}),
     },
     {
       idx: 6,
@@ -33,6 +34,7 @@ const Experience = () => {
       mainTask: t('milestone.6.mainTask'),
       tasks: t('milestone.6.tasks', {returnObjects: true}),
       links: t('milestone.6.links', {returnObjects: true}),
+      tags: t('milestone.6.tags', {returnObjects: true}),
     },
     {
       idx: 5,
@@ -43,6 +45,7 @@ const Experience = () => {
       mainTask: t('milestone.5.mainTask'),
       tasks: t('milestone.5.tasks', {returnObjects: true}),
       links: t('milestone.5.links', {returnObjects: true}),
+      tags: t('milestone.5.tags', {returnObjects: true}),
     },
     {
       idx: 4,
@@ -53,6 +56,7 @@ const Experience = () => {
       mainTask: t('milestone.4.mainTask'),
       tasks: t('milestone.4.tasks', {returnObjects: true}),
       links: t('milestone.4.links', {returnObjects: true}),
+      tags: t('milestone.4.tags', {returnObjects: true}),
     },
     {
       idx: 3,
@@ -63,6 +67,7 @@ const Experience = () => {
       mainTask: t('milestone.3.mainTask'),
       tasks: t('milestone.3.tasks', {returnObjects: true}),
       links: t('milestone.3.links', {returnObjects: true}),
+      tags: t('milestone.3.tags', {returnObjects: true}),
     },
     {
       idx: 2,
@@ -73,6 +78,7 @@ const Experience = () => {
       mainTask: t('milestone.2.mainTask'),
       tasks: t('milestone.2.tasks', {returnObjects: true}),
       links: t('milestone.2.links', {returnObjects: true}),
+      tags: t('milestone.2.tags', {returnObjects: true}),
     },
     {
       idx: 1,
@@ -83,6 +89,7 @@ const Experience = () => {
       mainTask: t('milestone.1.mainTask'),
       tasks: t('milestone.1.tasks', {returnObjects: true}),
       links: t('milestone.1.links', {returnObjects: true}),
+      tags: t('milestone.1.tags', {returnObjects: true}),
     },
     {
       idx: 0,
@@ -93,6 +100,7 @@ const Experience = () => {
       mainTask: t('milestone.0.mainTask'),
       tasks: t('milestone.0.tasks', {returnObjects: true}),
       links: t('milestone.0.links', {returnObjects: true}),
+      tags: t('milestone.0.tags', {returnObjects: true}),
     },
   ]
 

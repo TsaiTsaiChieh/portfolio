@@ -36,7 +36,16 @@
         "Realize the rollback of multiple data creation by <1>Redis</1>",
         "Infrastructure testing using <1>Pytest</1> before deployments"
       ],
-      "links": [""]
+      "links": [""],
+      "tags": [
+        "Python",
+        "PostgreSQL",
+        "Typescript",
+        "React",
+        "Redux",
+        "HTML/CSS",
+        "Docker"
+      ]
     },
     "6": {
       "jobTitle": "Backend Engineer",
@@ -49,7 +58,8 @@
         "Stable and clean code writing for APIs and scheduling",
         "Recovery other senior engineers error and refactor code"
       ],
-      "links": ["<0>APIs</0>", "<1>Scheduling</1>"]
+      "links": ["<0>APIs</0>", "<1>Scheduling</1>"],
+      "tags": ["NodeJS", "Firebase", "NoSQL", "MySQL", "GCP", "PM2"]
     },
     "5": {
       "jobTitle": "Backend Trainee",
@@ -61,7 +71,8 @@
         "Enhanced communication skill through collaboration with Front-End and iOS members on «Stylish»",
         "Adopted Agile and Scrum Methodology on the personal project development to deliver features on time"
       ],
-      "links": ["<0>Stylish</0>", "<1>Love Never Stray</1>"]
+      "links": ["<0>Stylish</0>", "<1>Love Never Stray</1>"],
+      "tags": ["NodeJS", "MySQL", "HTML/CSS", "AWS"]
     },
     "4": {
       "jobTitle": "Research Assistant",
@@ -71,7 +82,8 @@
       "tasks": [
         "Wrote a paper based on Machine Learning for computer-aided diagnosis and prepared the submission to international journals"
       ],
-      "links": [""]
+      "links": [""],
+      "tags": [""]
     },
     "3": {
       "jobTitle": "R&D Assistant engineer",
@@ -82,7 +94,8 @@
         "Adjusted deep learning models and parameters with Python",
         "Established x-ray labeling system for doctors"
       ],
-      "links": [""]
+      "links": [""],
+      "tags": ["Python"]
     },
     "2": {
       "jobTitle": "Master of Science",
@@ -94,7 +107,8 @@
         "Main courses: «Machine Learning», «Image Processing»",
         "Published thesis «Developing a novel cancer scoring card method for predicting metastasis of colorectal cancer from lymph node biopsy», used the Genetic algorithm combined with the Taguchi method which can quantify the degree of lymph node metastasis of colorectal cancer."
       ],
-      "links": ["<0>Thesis</0>"]
+      "links": ["<0>Thesis</0>"],
+      "tags": [""]
     },
     "1": {
       "jobTitle": "Programming Intern",
@@ -105,7 +119,8 @@
         "Using JAVA to develop jigsaw puzzles for Android phones",
         "Developed the bee and Rockman games in C# language with Unity, learned game design concepts such as scenes, cameras, etc."
       ],
-      "links": [""]
+      "links": [""],
+      "tags": [""]
     },
     "0": {
       "jobTitle": "Bachelor of Science",
@@ -117,7 +132,8 @@
         "The Phi Tau Phi Scholastic Honor Society Honorary member",
         "Academic Excellence Award (top 5% of class in semester) four times"
       ],
-      "links": [""]
+      "links": [""],
+      "tags": [""]
     }
   }
 }
