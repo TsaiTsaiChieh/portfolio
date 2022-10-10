@@ -48,6 +48,17 @@ export const Col = styled.div`
   justify-content: center;
   align-items: center;
 `
+export const Title = styled.h2`
+width: 100%;
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 40px;
+  &::first-letter {
+    text-transform: uppercase;
+  }
+`
 export const AnimationBox = styled.div`
   position: relative;
   background: ${colors.black[55]};
