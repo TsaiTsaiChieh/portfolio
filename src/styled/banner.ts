@@ -14,7 +14,7 @@ export const Section = styled.section`
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  ${MD} {
+  ${LG} {
     height: 100vh;
   }
 `

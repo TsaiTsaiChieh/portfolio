@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 import background from '../asset/img/color-sharp1.png'
 import linkIcon from '../asset/img/link.png'
-import {LG} from '../constant/Mixin'
+import {LG, MD} from '../constant/Mixin'
 import {colors} from '../constant/Variables'
 
 export const Section = styled.section`
@@ -23,7 +23,7 @@ export const Title = styled.h2`
   font-weight: bold;
   letter-spacing: 1px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   &::first-letter {
     text-transform: uppercase;
   }
@@ -43,42 +43,62 @@ export const MilestoneWrap = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-left: 90px;
+  padding-left: 70px;
   padding-bottom: 60px;
   span.period {
     font-size: 18px;
   }
   border-left: 7px solid white;
+  ${MD} {
+    padding-left: 90px;
+  }
 `
 export const JobAndCompany = styled.div`
   display: flex;
-  gap: 15px;
+  flex-direction: column;
   font-weight: bold;
   font-size: 22px;
   position: relative;
   border: none;
   img {
     position: absolute;
-    left: -133px;
-    width: 80px;
-    height: 80px;
+    left: -103px;
+    width: 60px;
+    height: 60px;
     background: white;
     border-radius: 50%;
     cursor: pointer;
+  }
+  ${MD} {
+    font-size: 24px;
+    flex-direction: row;
+    gap: 15px;
+    img {
+      left: -133px;
+      width: 80px;
+      height: 80px;
+    }
   }
 `
 export const TaskWrap = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-size: 16px;
+  font-size: 14.5px;
   list-style-type: disc;
+  ${MD} {
+    font-size: 16px;
+  }
 `
 export const LinkWrap = styled.ul`
   display: flex;
   gap: 30px;
+  font-size: 14.5px;
   li {
     text-decoration: underline;
+  }
+  ${MD} {
+    font-size: 16px;
   }
 `
 export const LinkIcon = styled.img`
@@ -89,6 +109,7 @@ export const LinkIcon = styled.img`
 `
 export const TagWrap = styled.ul`
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin-top: 15px;
 `

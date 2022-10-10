@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 import background from '../asset/img/color-sharp2.png'
 import {Language} from '../constant/Enum'
-import {LG, MD, XL, XXL} from '../constant/Mixin'
+import {LG, XL, XXL} from '../constant/Mixin'
 import {colors} from '../constant/Variables'
 import {AnimationBox} from './base'
 
@@ -14,10 +14,8 @@ export const Section = styled.section`
   overflow: hidden;
   padding: 105px 0;
   z-index:10;
-  ${MD} {
-    height: 100vh;
-  }
   ${LG} {
+    height: 100vh;
     padding: 130px 0;
   }
 `
