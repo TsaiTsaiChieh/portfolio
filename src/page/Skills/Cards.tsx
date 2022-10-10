@@ -12,7 +12,9 @@ import {
   SiTsnode,
 } from 'react-icons/si'
 
+import {SkillType} from '../../constant/Enum'
 import {SkillHref} from '../../constant/Links'
+import {Skills} from '../../constant/Skill'
 import {
   AnimatedBox,
   CardBody,
@@ -29,8 +31,8 @@ const Cards = () => {
   const {t, i18n} = useTranslation()
   const SkillTree: SkillTreeType[] = [
     {
-      name: 'backend',
-      learnings: ['NodeJS', 'Python', 'MySQL', 'Web Crawler'],
+      name: SkillType.BACKEND,
+      learnings: Skills.backend,
       icons: [
         <SiNodedotjs key={1} />,
         <SiPython key={2} />,
@@ -45,8 +47,8 @@ const Cards = () => {
       ),
     },
     {
-      name: 'frontend',
-      learnings: ['React', 'Redux Toolkit', 'Typescript', 'HTML/CSS'],
+      name: SkillType.FRONTEND,
+      learnings: Skills.frontend,
       icons: [
         <DiReact key={1} />,
         <SiRedux key={2} />,
@@ -61,8 +63,8 @@ const Cards = () => {
       ),
     },
     {
-      name: 'devOps',
-      learnings: ['AWS', 'GCP', 'Docker', 'PM2'],
+      name: SkillType.DEVOPS,
+      learnings: Skills.devOps,
       icons: [
         <SiAmazonaws key={1} />,
         <DiGoogleCloudPlatform key={2} />,
