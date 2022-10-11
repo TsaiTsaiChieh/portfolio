@@ -5,12 +5,12 @@ import {Btn, BtnWrap} from '../../styled/projects'
 
 interface Props {
   ProjectItems: ProjectItemType[]
-  active: string
-  setActive: Dispatch<SetStateAction<string>>
+  idx: number
+  setIdx: Dispatch<SetStateAction<number>>
 }
-const Tab = ({ProjectItems, active, setActive}: Props) => {
-  const onClick = (ele: string) => {
-    setActive(ele)
+const Tab = ({ProjectItems, idx, setIdx}: Props) => {
+  const onClick = (ele: number) => {
+    setIdx(ele)
   }
 
   return (
@@ -18,8 +18,8 @@ const Tab = ({ProjectItems, active, setActive}: Props) => {
       {ProjectItems.map((ele, i) => (
         <Btn
           key={i}
-          className={active === ele.name ? Modifier.ACTIVE : ''}
-          onClick={() => onClick(ele.name)}
+          className={idx === i ? Modifier.ACTIVE : ''}
+          onClick={() => onClick(i)}
         >
           {ele.name}
         </Btn>
