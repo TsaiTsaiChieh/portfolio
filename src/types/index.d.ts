@@ -21,4 +21,6 @@ type MilestoneType = {
 }
 type ProjectItemType = {
   name: string
+  png: string
+  summary: string
 }
