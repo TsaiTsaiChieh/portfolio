@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+import {MD} from '../constant/Mixin'
 import {colors} from '../constant/Variables'
 
 export const Section = styled.section`
@@ -9,17 +10,21 @@ export const Section = styled.section`
 `
 export const BtnWrap = styled.div`
   display: flex;
-  width: 72%;
+  width: 95%;
   background: ${colors.black[60]};
   border-radius: 50px;
-  font-size: 18px;
+  font-size: 14px;
   justify-content: space-around;
+  ${MD} {
+    width: 75%;
+    font-size: 16px;
+  }
 `
 export const Btn = styled.button`
   width: 100%;
   height: 100%;
   background: transparent;
-  padding: 18px 0;
+  padding: 20px 0;
   font-weight: bold;
   color: white;
   letter-spacing: 0.5px;
@@ -54,6 +59,12 @@ export const Btn = styled.button`
     transition: 0.3s ease-in-out;
   }
   &.active::before {
-    width: 100% !important;
+    width: 100%;
   }
+`
+export const SideProjectWrap = styled.div`
+display: flex;
+`
+export const Screenshot = styled.img<{$path: string}>`
+content: url(${(props) => props.$path})
 `
