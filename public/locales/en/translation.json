@@ -145,8 +145,16 @@
     }
   ],
   "projects": [
-    { "name": "Never Stray" },
-    { "name": "Sweetaste" },
-    { "name": "chatTalker" }
+    {
+      "name": "Never Stray",
+      "png": "never-stray",
+      "summary": "An animal adoption platform that integrated the shelters and meet map in Taiwan. Users can quickly find pets through multiple search conditions or track the pets they are interested in."
+    },
+    {
+      "name": "ChatTalker",
+      "png": "chat-talker",
+      "summary": "I want to improve my HTML and CSS skills, I joined frontend course from Hex School, according to <1>design draft</1>, write HTML and SCSS code."
+    },
+    { "name": "LNS", "png": "lns", "summary": "lorem lorem" }
   ]
 }
