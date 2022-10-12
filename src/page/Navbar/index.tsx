@@ -56,7 +56,7 @@ const Navbar = () => {
         <Hamburger expanded={expanded} setExpanded={setExpanded} />
         <Collapse
           className={scrolled ? Modifier.SCROLL : ''}
-          expanded={expanded}
+          $expanded={expanded}
         >
           <NavContainer>
             {Object.keys(NavbarHref)

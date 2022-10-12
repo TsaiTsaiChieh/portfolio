@@ -47,22 +47,23 @@ export const Toggle = styled.button`
     display: none;
   }
 `
-export const Collapse = styled.div<{expanded: boolean}>`
+export const Collapse = styled.div<{$expanded: boolean}>`
   width: 100%;
   &.scrolled {
     background: ${(props) =>
-    props.expanded ? colors.black[50] : 'transparent'};
+    props.$expanded ? colors.black[50] : 'transparent'};
   }
   padding: 10px;
-  display: flex;
+  display: ${(props) => (props.$expanded ? 'flex' : 'none')};
   flex-direction: column;
   align-items: center;
   flex-grow: 1;
   position: absolute;
-  top: ${(props) => (props.expanded ? '50px' : '45px')};
+  top: ${(props) => (props.$expanded ? '50px' : '45px')};
   transition: 0.2s ease-out;
-  opacity: ${(props) => (props.expanded ? 1 : 0)};
+  opacity: ${(props) => (props.$expanded ? 1 : 0)};
   ${LG} {
+    display: flex;
     background: transparent;
     opacity: 1;
     flex-direction: row;
