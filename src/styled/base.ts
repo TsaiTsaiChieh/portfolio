@@ -89,3 +89,13 @@ export const AnimationBox = styled.div`
     margin: 0;
   }
 `
+export const SkillTag = styled.li<{color: string}>`
+background: ${(props) => props.color};
+  font-style: italic;
+  font-size: 12px;
+  padding: 0px 5px;
+  border-radius: 10px;
+  &::before {
+    content: "#";
+  }
+`
