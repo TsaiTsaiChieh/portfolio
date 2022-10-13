@@ -27,7 +27,7 @@ export const Background = styled.img`
 export const MilestoneWrap = styled.div`
   width: 85%;
   text-align: left;
-  line-height: 2.4rem;
+  line-height: 1.5rem;
   letter-spacing: 0.5px;
   display: flex;
   flex-direction: column;
@@ -36,6 +36,7 @@ export const MilestoneWrap = styled.div`
   padding-bottom: 60px;
   span.period {
     font-size: 18px;
+    margin-bottom:20px ;
   }
   border-left: 7px solid white;
   ${MD} {
@@ -58,6 +59,7 @@ export const JobAndCompany = styled.div`
     border-radius: 50%;
     cursor: pointer;
   }
+  
   ${MD} {
     font-size: 24px;
     flex-direction: row;
@@ -101,14 +103,5 @@ export const TagWrap = styled.ul`
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 15px;
-`
-export const SkillTag = styled.li<{color: string}>`
-  background: ${(props) => props.color};
-  font-style: italic;
-  font-size: 12px;
-  padding: 0px 5px;
-  border-radius: 10px;
-  &::before {
-    content: "#";
-  }
+  line-height: 1.2rem;
 `
