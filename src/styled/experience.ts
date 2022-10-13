@@ -50,6 +50,7 @@ export const JobAndCompany = styled.div`
   font-size: 22px;
   position: relative;
   border: none;
+  margin-bottom: 10px;
   img {
     position: absolute;
     left: -103px;
@@ -77,6 +78,7 @@ export const TaskWrap = styled.ul`
   align-items: flex-start;
   font-size: 14.5px;
   list-style-type: disc;
+  margin-bottom: 8px;
   ${MD} {
     font-size: 16px;
   }
