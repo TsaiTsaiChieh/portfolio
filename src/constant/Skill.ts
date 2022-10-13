@@ -7,8 +7,18 @@ export const SkillTags: {[skills in SkillCategory]: string[]} = {
     'PostgreSQL',
     'Firebase',
     'NoSQL',
+    'Pug',
+    'Redis',
   ],
-  frontend: ['React', 'Redux', 'Typescript', 'HTML/CSS'],
+  frontend: [
+    'React',
+    'Redux',
+    'Typescript',
+    'HTML/CSS',
+    'JQuery',
+    'SCSS',
+    'Redux Toolkit',
+  ],
   devOps: ['AWS', 'GCP', 'Docker', 'PM2'],
 }
 export const Skills: {[skills in SkillCategory]: string[]} = {
