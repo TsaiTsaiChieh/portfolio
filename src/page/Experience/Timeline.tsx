@@ -1,12 +1,12 @@
 import {Trans} from 'react-i18next'
 
 import {ExperienceHref} from '../../constant/Links'
+import {SkillTag} from '../../styled/base'
 import {
   JobAndCompany,
   LinkIcon,
   LinkWrap,
   MilestoneWrap,
-  SkillTag,
   TagWrap,
   TaskWrap,
 } from '../../styled/experience'
