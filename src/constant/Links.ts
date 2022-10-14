@@ -49,3 +49,13 @@ export const ExperienceHref: {[index: string]: string[]} = {
   '6': [],
   '7': [],
 }
+export const ProjectsHref: {[index: string]: string} = {
+  '0': 'https://never-stray.com',
+  '1': 'https://tsaitsaichieh.github.io/chat-talker-ai',
+  '2': '',
+}
+export const ProjectsGithub: {[index: string]: string} = {
+  '0': 'https://github.com/TsaiTsaiChieh/never-stray',
+  '1': 'https://github.com/TsaiTsaiChieh/chat-talker-ai',
+  '2': 'https://github.com/TsaiTsaiChieh/pet_home',
+}
