@@ -1,6 +1,7 @@
 import TrackVisibility from 'react-on-screen'
 import styled from 'styled-components'
 
+import linkIcon from '../asset/img/link.png'
 import {LG, MD, SM, XL, XXL} from '../constant/Mixin'
 import {colors} from '../constant/Variables'
 
@@ -98,4 +99,10 @@ background: ${(props) => props.color};
   &::before {
     content: "#";
   }
+`
+export const LinkIcon = styled.img`
+  content: url(${linkIcon});
+  width: 15px;
+  margin-left: 5px;
+  margin-bottom: 5px;
 `

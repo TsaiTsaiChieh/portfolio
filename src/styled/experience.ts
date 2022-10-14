@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 import background from '../asset/img/color-sharp1.png'
-import linkIcon from '../asset/img/link.png'
 import {LG, MD} from '../constant/Mixin'
 import {colors} from '../constant/Variables'
 
@@ -93,12 +92,6 @@ export const LinkWrap = styled.ul`
   ${MD} {
     font-size: 16px;
   }
-`
-export const LinkIcon = styled.img`
-  content: url(${linkIcon});
-  width: 15px;
-  margin-left: 5px;
-  margin-bottom: 5px;
 `
 export const TagWrap = styled.ul`
   display: flex;
