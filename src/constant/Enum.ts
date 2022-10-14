@@ -1,7 +1,8 @@
 export enum Modifier {
   NULL = '',
   ACTIVE = 'active',
-  SCROLL = 'scrolled'
+  SCROLL = 'scrolled',
+  DEPRECATED = 'deprecated'
 }
 export enum Language {
   EN = 'en',
