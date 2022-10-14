@@ -143,8 +143,39 @@
     }
   ],
   "projects": [
-    { "name": "讓愛不流浪" },
-    { "name": "Sweetaste" },
-    { "name": "chatTalker" }
+    {
+      "name": "讓愛不流浪",
+      "png": "never-stray",
+      "summary": "整合政府收容所和台灣認養地圖的動物認養平台，使用者可藉由多重搜尋條件找到寵物或者追蹤自己感興趣的寵物。（為認養平台的第二個版本）",
+      "tags": [
+        "NodeJS",
+        "MySQL",
+        "Web Crawler",
+        "Typescript",
+        "React",
+        "Redux Toolkit",
+        "RWD",
+        "AWS",
+        "Docker"
+      ],
+      "spend": "花費約 336 小時 / 42 工作天",
+      "website": "<0>網站</0>"
+    },
+    {
+      "name": "聊天機器人",
+      "png": "chat-talker",
+      "summary": "為了增進自己 HTML 和 CSS 的技能，我參加了六角學院開設的前端課程，並根據設計稿，純粹寫了些 HTML、SCSS 和 JQuery，並提供響應式網頁設計。",
+      "tags": ["SCSS", "HTML/CSS", "JQuery", "RWD"],
+      "spend": "花費約 16 小時 / 2 工作天",
+      "website": "<0>網站</0>"
+    },
+    {
+      "name": "讓愛不流浪",
+      "png": "lns",
+      "summary": "我在 AppWorks School 期間完成的個人專案。是一個寵物的認養平台，使用者可透過多重搜尋條件快速找到寵物，或者發佈寵物的送養資訊。",
+      "tags": ["NodeJS", "MySQL", "Pug", "Redis", "HTML/CSS", "AWS", "PM2"],
+      "spend": "花費約 420 小時 / 52.5 工作天",
+      "website": "已下架"
+    }
   ]
 }

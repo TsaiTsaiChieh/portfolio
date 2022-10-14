@@ -148,13 +148,36 @@
     {
       "name": "Never Stray",
       "png": "never-stray",
-      "summary": "An animal adoption platform that integrated the shelters and meet map in Taiwan. Users can quickly find pets through multiple search conditions or track the pets they are interested in."
+      "summary": "An animal adoption platform that integrated the shelters and meet map in Taiwan. Users can quickly find pets through multiple search conditions or track the pets they are interested in. (Second Edition of the LNS Project)",
+      "tags": [
+        "NodeJS",
+        "MySQL",
+        "Web Crawler",
+        "Typescript",
+        "React",
+        "Redux Toolkit",
+        "RWD",
+        "AWS",
+        "Docker"
+      ],
+      "spend": "spend about 336 hrs / 42 working days",
+      "website": "<0>website</0>"
     },
     {
       "name": "ChatTalker",
       "png": "chat-talker",
-      "summary": "I want to improve my HTML and CSS skills, I joined frontend course from Hex School, according to <1>design draft</1>, write HTML and SCSS code."
+      "summary": "To improve my HTML and CSS skills, I joined a frontend course from Hex School, according to design draft, writing HTML, SCSS, and some JQuery code only, and providing responsive web design.",
+      "tags": ["SCSS", "HTML/CSS", "JQuery", "RWD"],
+      "spend": "spend about 16 hrs / 2 working days",
+      "website": "<0>website</0>"
     },
-    { "name": "LNS", "png": "lns", "summary": "lorem lorem" }
+    {
+      "name": "LNS",
+      "png": "lns",
+      "summary": "A personal project I completed while at AppWorks School. This website is an animal adoption platform. Users can quickly find pets through multiple search conditions, or published pet adoption information.",
+      "tags": ["NodeJS", "MySQL", "Pug", "Redis", "HTML/CSS", "AWS", "PM2"],
+      "spend": "spend about 420 hrs / 52.5 working days",
+      "website": "deprecated"
+    }
   ]
 }
