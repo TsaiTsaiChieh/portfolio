@@ -18,6 +18,7 @@ export const SkillTags: {[skills in SkillCategory]: string[]} = {
     'JQuery',
     'SCSS',
     'Redux Toolkit',
+    'RWD',
   ],
   devOps: ['AWS', 'GCP', 'Docker', 'PM2'],
 }
