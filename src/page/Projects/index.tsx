@@ -1,9 +1,11 @@
 import {useState} from 'react'
 import {useTranslation} from 'react-i18next'
 
+import {ProjectsGithub} from '../../constant/Links'
 import {Col, Container, Title} from '../../styled/base'
 import {Section} from '../../styled/projects'
-import SideProject from './SideProject'
+import Details from './Details'
+import Screenshot from './Screenshot'
 import Tab from './Tab'
 
 const Projects = () => {
@@ -19,12 +21,13 @@ const Projects = () => {
       <Container>
         <Col>
           <Title>{t('nav.projects')}</Title>
-          <Tab
-            ProjectItems={ProjectItems}
+          <Details
             idx={idx}
-            setIdx={setIdx}
+            project={ProjectItems[idx]}
+            github={ProjectsGithub[idx]}
           />
-          <SideProject project={ProjectItems[idx]} />
+          <Tab ProjectItems={ProjectItems} idx={idx} setIdx={setIdx} />
+          <Screenshot project={ProjectItems[idx]} />
         </Col>
       </Container>
     </Section>
