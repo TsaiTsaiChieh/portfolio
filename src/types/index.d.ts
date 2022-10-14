@@ -23,4 +23,7 @@ type ProjectItemType = {
   name: string
   png: string
   summary: string
+  tags: string[]
+  spend: string
+  website: string
 }
