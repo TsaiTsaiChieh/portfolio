@@ -13,7 +13,7 @@ export const Section = styled.section`
   position: relative;
   overflow: hidden;
   padding: 105px 0;
-  z-index:10;
+  z-index: 10;
   ${LG} {
     height: 100vh;
     padding: 130px 0;
@@ -48,15 +48,14 @@ export const CardBody = styled.li<{$language: string}>`
   z-index: 10;
   overflow: hidden;
   ${LG} {
-    height: ${(props) => props.$language === Language.ZH ? '674px' : '730px'};
+    height: ${(props) => (props.$language === Language.ZH ? '674px' : '730px')};
   }
   ${XL} {
-    height: ${(props) => props.$language === Language.ZH ? '629px' : '696px'};
+    height: ${(props) => (props.$language === Language.ZH ? '629px' : '696px')};
   }
   ${XXL} {
-    height: ${(props) => props.$language === Language.ZH ? '606px' : '650px'};
+    height: ${(props) => (props.$language === Language.ZH ? '606px' : '650px')};
   }
-
 `
 export const SkillGroup = styled.ul`
   display: flex;
@@ -116,7 +115,7 @@ export const CardLabel = styled.label`
 export const CardDetails = styled.p`
   line-height: 1.4rem;
   color: ${colors.black[100]};
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   a {
     font-weight: bold;
   }
