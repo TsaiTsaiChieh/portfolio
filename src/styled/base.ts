@@ -42,7 +42,7 @@ export const Row = styled(TrackVisibility)`
     flex-direction: row;
   }
 `
-export const Col = styled.div`
+export const Col = styled(TrackVisibility)`
   display: flex;
   flex-direction: column;
   width: 100%;
