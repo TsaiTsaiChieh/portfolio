@@ -1,14 +1,44 @@
-import {ImgWrap} from '../../styled/projects'
+import {Trans} from 'react-i18next'
+
+import {ProjectsHref} from '../../constant/Links'
+import {ImgWrap, Mask, TechWrap} from '../../styled/projects'
 
 interface Props {
+  idx: number
   project: ProjectItemType
 }
-const Screenshot = ({project}: Props) => {
-  const {png} = project
+const Screenshot = ({idx, project}: Props) => {
+  const {png, tech} = project
+  const Img: JSX.Element = (
+    <img src={require(`../../asset/img/${png}.png`)} alt='screenshot' />
+  )
+  const Tech = (
+    <TechWrap className='tech'>
+      {tech.map((ele, i) => (
+        <li key={i}>{ele}</li>
+      ))}
+    </TechWrap>
+  )
+  tech.map((ele) => console.log(ele))
 
   return (
     <ImgWrap>
-      <img src={require(`../../asset/img/${png}.png`)} alt='screenshot' />
+      {ProjectsHref[idx] === '' ? (
+        <Mask>
+          {Img}
+          {Tech}
+        </Mask>
+      ) : (
+        <a href={ProjectsHref[idx]} className='mask'
+          target='_blank' rel='noopener noreferrer'>
+          {Img}
+          {Tech}
+          <Trans
+            i18nKey='hint.go2website'
+            components={{1: <a className='go2website' />}}
+          />
+        </a>
+      )}
     </ImgWrap>
   )
 }
