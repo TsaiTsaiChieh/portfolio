@@ -26,4 +26,5 @@ type ProjectItemType = {
   tags: string[]
   spend: string
   website: string
+  tech: string[]
 }
