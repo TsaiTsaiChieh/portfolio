@@ -3,7 +3,7 @@ import {useTranslation} from 'react-i18next'
 
 import {ProjectsGithub} from '../../constant/Links'
 import {Col, Container, Title} from '../../styled/base'
-import {Section} from '../../styled/projects'
+import {Background, Section} from '../../styled/projects'
 import Details from './Details'
 import Screenshot from './Screenshot'
 import Tab from './Tab'
@@ -26,10 +26,11 @@ const Projects = () => {
             project={ProjectItems[idx]}
             github={ProjectsGithub[idx]}
           />
-          <Tab ProjectItems={ProjectItems} idx={idx} setIdx={setIdx} />
-          <Screenshot project={ProjectItems[idx]} />
+          <Tab idx={idx} ProjectItems={ProjectItems} setIdx={setIdx} />
+          <Screenshot idx={idx} project={ProjectItems[idx]} />
         </Col>
       </Container>
+      <Background />
     </Section>
   )
 }
