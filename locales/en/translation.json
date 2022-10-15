@@ -12,6 +12,9 @@
     "frontend": "frontend",
     "devOps": "dev ops"
   },
+  "hint": {
+    "go2website": "<1>Go to website</1>"
+  },
   "content": {
     "introduction": "I'm a self-taught full-stack and detailed-oriented engineer.<br>I like to solve problems by coding and keep on writing clean and stable code. <br/>I'm also an <1><2>Adventurer</2></1>, always curious about new technologies and willing to share.<br/>I'm sensitive to others' emotions, try to establish harmony, and minimize conflict.",
     "backendDetails": "Two years and one year of experience with <0>NodeJS/Express</0> and <1>Python/FastAPI</1> respectively. Almost use SQL-like databases, utilize indexes frequently to speed up query efficiency, and also used <2>Firebase</2> for chat room development. Apply <3>cheerio</3> to crawl  live scores of games information.",
@@ -142,6 +145,56 @@
       ],
       "links": [""],
       "tags": [""]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Never Stray",
+      "png": "never-stray",
+      "summary": "An animal adoption platform that integrated the shelters and meet map in Taiwan. Users can quickly find pets through multiple search conditions or track the pets they are interested in. (Second Edition of the LNS Project)",
+      "tags": [
+        "NodeJS",
+        "MySQL",
+        "Web Crawler",
+        "Typescript",
+        "React",
+        "Redux Toolkit",
+        "RWD",
+        "AWS",
+        "Docker"
+      ],
+      "spend": "spend about 336 hrs / 42 working days",
+      "website": "<0>website</0>",
+      "tech": [
+        "Use Docker that makes any deployment consistent, portable, and scalable",
+        "Use Redux Toolkit for centralizing state management and simplifying many common use cases like creating reducer",
+        "Eliminate the need to hand-write data fetching and caching logic yourself by using RTK Query"
+      ]
+    },
+    {
+      "name": "ChatTalker",
+      "png": "chat-talker",
+      "summary": "To improve my HTML and CSS skills, I joined a frontend course from Hex School, according to design draft, writing HTML, SCSS, and some JQuery code only, and providing responsive web design.",
+      "tags": ["SCSS", "HTML/CSS", "JQuery", "RWD"],
+      "spend": "spend about 16 hrs / 2 working days",
+      "website": "<0>website</0>",
+      "tech": [
+        "Based on the SMACSS concept to design CSS modular architecture",
+        "Learn how to read Figma or Adobe XD design drafts"
+      ]
+    },
+    {
+      "name": "LNS",
+      "png": "lns",
+      "summary": "A personal project I completed while at AppWorks School. This website is an animal adoption platform. Users can quickly find pets through multiple search conditions, or published pet adoption information.",
+      "tags": ["NodeJS", "MySQL", "Pug", "Redis", "HTML/CSS", "AWS", "PM2"],
+      "spend": "spend about 420 hrs / 52.5 working days",
+      "website": "deprecated",
+      "tech": [
+        "Applied MVC design pattern for better code readability",
+        "Node-schedule for frequent database update",
+        "Improved loading time using caching with Redis server"
+      ]
     }
   ]
 }
