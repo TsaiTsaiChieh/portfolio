@@ -4,10 +4,11 @@ import {ProjectsHref} from '../../constant/Links'
 import {ImgWrap, Mask, TechWrap} from '../../styled/projects'
 
 interface Props {
+  isVisible: boolean
   idx: number
   project: ProjectItemType
 }
-const Screenshot = ({idx, project}: Props) => {
+const Screenshot = ({isVisible, idx, project}: Props) => {
   const {png, tech} = project
   const Img: JSX.Element = (
     <img src={require(`../../asset/img/${png}.png`)} alt='screenshot' />
@@ -22,15 +23,21 @@ const Screenshot = ({idx, project}: Props) => {
   tech.map((ele) => console.log(ele))
 
   return (
-    <ImgWrap>
+    <ImgWrap
+      className={isVisible ? 'animate__animated animate__fadeIn' : ''}
+    >
       {ProjectsHref[idx] === '' ? (
         <Mask>
           {Img}
           {Tech}
         </Mask>
       ) : (
-        <a href={ProjectsHref[idx]} className='mask'
-          target='_blank' rel='noopener noreferrer'>
+        <a
+          href={ProjectsHref[idx]}
+          className='mask'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           {Img}
           {Tech}
           <Trans

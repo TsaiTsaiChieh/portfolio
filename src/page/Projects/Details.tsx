@@ -4,20 +4,28 @@ import {Modifier} from '../../constant/Enum'
 import {ProjectsHref} from '../../constant/Links'
 import {LinkIcon, SkillTag} from '../../styled/base'
 import {
-  DetailsWrap, IconWrap, InfoWrap, ProjectName, Summary, TagWrap,
+  DetailsWrap,
+  IconWrap,
+  InfoWrap,
+  ProjectName,
+  Summary,
+  TagWrap,
 } from '../../styled/projects'
 import {aTag, tagColor} from '../../utils/helper'
 
 interface Props {
+  isVisible: boolean
   idx: number
   project: ProjectItemType
   github: string
 }
-const Details = ({idx, project, github}: Props) => {
+const Details = ({isVisible, idx, project, github}: Props) => {
   const {summary, name, tags, spend} = project
 
   return (
-    <DetailsWrap>
+    <DetailsWrap
+      className={isVisible ? 'animate__animated animate__fadeIn' : ''}
+    >
       <ProjectName>{name}</ProjectName>
       <Summary>{summary}</Summary>
       <TagWrap>
