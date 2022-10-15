@@ -12,6 +12,9 @@
     "frontend": "前端技術",
     "devOps": "開發維運"
   },
+  "hint": {
+    "go2website": "<1>瞧瞧網站</1>"
+  },
   "content": {
     "introduction": "我是個自學能力強且注重細節的全端工程師。<br/>喜歡透過程式來解決問題，並撰寫乾淨且穩定的程式碼。<br/>我也擁有<1><2>冒險家</2></1>的精神，總是對新技術充滿好奇並樂於分享所學。<br/>同時我對他人的情緒敏感，常努力建立和諧關係，盡量減少衝突的發生。",
     "backendDetails": "<0>NodeJS/Express</0> 的經驗約兩年；<1>Python/FastAPI</1> 的經驗一年。大多使用 SQL 類型的資料庫，並善用索引來加快查詢效率，也使用過 <2>Firebase</2> 進行聊天室的開發。爬蟲則使用 <3>cheerio</3> 來爬取運動比賽的即時比分等資訊。",
@@ -159,7 +162,12 @@
         "Docker"
       ],
       "spend": "花費約 336 小時 / 42 工作天",
-      "website": "<0>網站</0>"
+      "website": "<0>網站</0>",
+      "tech": [
+        "使用 Docker 使任何部署都保持一致、可移植且易於擴展服務",
+        "使用 Redux Toolkit 將狀態集中管理，並簡化許多常見的案例，如建立 reducer",
+        "透過 Redux Toolkit 查詢，不需自己編寫資料獲取和快取等程式"
+      ]
     },
     {
       "name": "聊天機器人",
@@ -167,7 +175,11 @@
       "summary": "為了增進自己 HTML 和 CSS 的技能，我參加了六角學院開設的前端課程，並根據設計稿，純粹寫了些 HTML、SCSS 和 JQuery，並提供響應式網頁設計。",
       "tags": ["SCSS", "HTML/CSS", "JQuery", "RWD"],
       "spend": "花費約 16 小時 / 2 工作天",
-      "website": "<0>網站</0>"
+      "website": "<0>網站</0>",
+      "tech": [
+        "根據 SMACSS 的概念，設計 CSS 模組化架構",
+        "學習如何閱讀 Figma 或 Adobe XD 設計稿"
+      ]
     },
     {
       "name": "讓愛不流浪",
@@ -175,7 +187,12 @@
       "summary": "我在 AppWorks School 期間完成的個人專案。是一個寵物的認養平台，使用者可透過多重搜尋條件快速找到寵物，或者發佈寵物的送養資訊。",
       "tags": ["NodeJS", "MySQL", "Pug", "Redis", "HTML/CSS", "AWS", "PM2"],
       "spend": "花費約 420 小時 / 52.5 工作天",
-      "website": "已下架"
+      "website": "已下架",
+      "tech": [
+        "採用 MVC 設計模式，讓程式更好管理和閱讀",
+        "使用 Node-schedule 頻繁更新資料庫",
+        "使用 Redis 服務快取來改善加載的時間"
+      ]
     }
   ]
 }
