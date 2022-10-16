@@ -20,7 +20,6 @@ const Screenshot = ({isVisible, idx, project}: Props) => {
       ))}
     </TechWrap>
   )
-  tech.map((ele) => console.log(ele))
 
   return (
     <ImgWrap
