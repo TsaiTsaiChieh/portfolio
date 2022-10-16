@@ -32,7 +32,7 @@ const Projects = () => {
             )}
           </Row>
           <Tab idx={idx} ProjectItems={ProjectItems} setIdx={setIdx} />
-          <Col>
+          <Row className='center'>
             {({isVisible}) => (
               <Screenshot
                 isVisible={isVisible}
@@ -40,7 +40,7 @@ const Projects = () => {
                 project={ProjectItems[idx]}
               />
             )}
-          </Col>
+          </Row>
         </Col>
       </Container>
       <Background />
