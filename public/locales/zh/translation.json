@@ -157,14 +157,12 @@
         "Typescript",
         "React",
         "Redux Toolkit",
-        "RWD",
         "AWS",
         "Docker"
       ],
       "spend": "花費約 336 小時 / 42 工作天",
       "website": "<0>網站</0>",
       "tech": [
-        "使用 Docker 使任何部署都保持一致、可移植且易於擴展服務",
         "使用 Redux Toolkit 將狀態集中管理，並簡化許多常見的案例，如建立 reducer",
         "透過 Redux Toolkit 查詢，不需自己編寫資料獲取和快取等程式"
       ]
