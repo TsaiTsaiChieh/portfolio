@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 import background from '../asset/img/color-sharp2.png'
-import {MD} from '../constant/Mixin'
+import {LG, MD, XXL} from '../constant/Mixin'
 import {colors} from '../constant/Variables'
 
 export const Section = styled.section`
@@ -10,9 +10,13 @@ export const Section = styled.section`
   overflow: hidden;
   position: relative;
   z-index: 10;
-  ${MD} {
+  padding: 150px 0;
+  ${LG} {
     height: 100vh;
-    padding: 130px 0;
+    padding: 10% 0;
+  }
+  ${XXL} {
+    padding: 5% 0;
   }
 `
 export const BtnWrap = styled.div`
@@ -22,8 +26,8 @@ export const BtnWrap = styled.div`
   border-radius: 50px;
   font-size: 14px;
   justify-content: space-around;
-  margin: 30px 0 50px;
-  ${MD} {
+  margin: 30px 0 35px;
+  ${LG} {
     width: 75%;
     font-size: 16px;
   }
@@ -75,17 +79,18 @@ export const Btn = styled.button`
   }
 `
 export const DetailsWrap = styled.div`
-  width: 55%;
-  height: 180px;
+  width: 95%;
   display: flex;
   flex-direction: column;
   line-height: 1.3rem;
   margin: auto;
   text-align: center;
-  margin-bottom: 30px;
+  ${LG} {
+    width: 55%;
+  }
 `
 export const ImgWrap = styled.div`
-  width: 100%;
+  width: 95%;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -111,26 +116,33 @@ export const ImgWrap = styled.div`
     }
     &:hover .tech {
       opacity: 1;
-      top: 10px;
+      top: 0px;
     }
     &:hover .go2website {
-      opacity: 1;
-      top: 45px;
+      opacity: 0;
+      ${MD} {
+        opacity: 1;
+        top: 25px;
+      }
+      ${LG} {
+        top: 15%;
+      }
     }
-  }
-  ${MD} {
-    width: 55%;
   }
   .go2website {
     font-size: 20px;
     width: 100%;
     position: absolute;
-    top: 35px;
+    top: 0;
     left: 0;
     opacity: 0;
     font-style: italic;
     font-weight: bold;
     transition: 0.4s ease-in-out;
+  }
+  ${LG} {
+    top: 40px;
+    width: 60%;
   }
 `
 export const Mask = styled.div`
@@ -161,18 +173,23 @@ export const TechWrap = styled.ul`
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 0;
+  top: -10px;
   text-align: left;
   justify-content: center;
   width: 100%;
   height: 100%;
-  padding: 15%;
-  line-height: 1.5rem;
+  padding: 8%;
+  line-height: 1.2rem;
   list-style-type: disc;
   font-size: 14.5px;
   margin: auto;
   opacity: 0;
   transition: 0.5s ease-in-out;
+  ${MD} {
+    line-height: 1.5rem;
+    padding: 15%;
+    font-size: 16px;
+  }
 `
 export const ProjectName = styled.h1`
   font-size: 22px;
@@ -204,15 +221,27 @@ export const SkillTag = styled.li<{color: string}>`
 export const InfoWrap = styled.div`
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
+  span {
+    font-size: 14px;
+  }
+  ${MD} {
+    gap: 20px;
+    span {
+      font-size: 16px;
+    }
+  }
 `
 export const IconWrap = styled.div`
-  font-size: 16px;
+  font-size: 14px;
   a {
     text-decoration: underline;
   }
   &.deprecated {
     color: ${colors.black[100]};
+  }
+  ${MD} {
+    font-size: 16px;
   }
 `
 export const Background = styled.img`

@@ -31,11 +31,11 @@ export const MilestoneWrap = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-left: 70px;
+  padding-left: 50px;
   padding-bottom: 60px;
   span.period {
     font-size: 18px;
-    margin-bottom:20px ;
+    margin-bottom: 20px;
   }
   border-left: 7px solid white;
   ${MD} {
@@ -52,14 +52,13 @@ export const JobAndCompany = styled.div`
   margin-bottom: 10px;
   img {
     position: absolute;
-    left: -103px;
+    left: -83px;
     width: 60px;
     height: 60px;
     background: white;
     border-radius: 50%;
     cursor: pointer;
   }
-  
   ${MD} {
     font-size: 24px;
     flex-direction: row;
@@ -78,6 +77,7 @@ export const TaskWrap = styled.ul`
   font-size: 14.5px;
   list-style-type: disc;
   margin-bottom: 8px;
+  padding-left: 0px;
   ${MD} {
     font-size: 16px;
   }
@@ -86,6 +86,7 @@ export const LinkWrap = styled.ul`
   display: flex;
   gap: 30px;
   font-size: 14.5px;
+  padding-left: 0;
   li {
     text-decoration: underline;
   }
@@ -99,4 +100,6 @@ export const TagWrap = styled.ul`
   gap: 10px;
   margin-top: 15px;
   line-height: 1.2rem;
+  text-align: left;
+  padding-left: 0;
 `
