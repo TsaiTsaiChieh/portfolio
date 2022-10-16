@@ -53,7 +53,7 @@ export const Col = styled.div`
   align-items: center;
 `
 export const Title = styled.h2`
-width: 100%;
+  width: 100%;
   font-size: 45px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -94,7 +94,7 @@ export const AnimationBox = styled.div`
   }
 `
 export const SkillTag = styled.li<{color: string}>`
-background: ${(props) => props.color};
+  background: ${(props) => props.color};
   font-style: italic;
   font-size: 12px;
   padding: 0px 5px;
