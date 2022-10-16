@@ -41,7 +41,9 @@ const Screenshot = ({isVisible, idx, project}: Props) => {
           {Tech}
           <Trans
             i18nKey='hint.go2website'
-            components={{1: <a className='go2website' />}}
+            components={{
+              1: <span className='go2website' />,
+            }}
           />
         </a>
       )}
