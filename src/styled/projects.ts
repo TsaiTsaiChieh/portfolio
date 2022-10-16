@@ -6,7 +6,7 @@ import {colors} from '../constant/Variables'
 
 export const Section = styled.section`
   height: 100%;
-  background: ${colors.black[50]};
+  background: ${colors.black[40]};
   overflow: hidden;
   position: relative;
   z-index: 10;
