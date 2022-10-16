@@ -11,7 +11,7 @@ export const Container = styled.div`
   align-items: center;
   margin-right: auto;
   margin-left: auto;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-wrap: inherit;
   position: relative;
   padding: 0 5%;
@@ -41,8 +41,11 @@ export const Row = styled(TrackVisibility)`
   ${LG} {
     flex-direction: row;
   }
+  &.center {
+    justify-content: center;
+  }
 `
-export const Col = styled(TrackVisibility)`
+export const Col = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
