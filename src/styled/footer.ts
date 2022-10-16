@@ -28,7 +28,7 @@ export const Section = styled.section`
 export const IconContainer = styled(iconContainer)`
 position: relative;
 span {
-  width: 200%;
+  width: 180%;
   position: absolute;
   left: -85%;
   color: ${colors.black[100]};
