@@ -50,12 +50,14 @@ export const ExperienceHref: {[index: string]: string[]} = {
   '7': [],
 }
 export const ProjectsHref: {[index: string]: string} = {
-  '0': 'https://never-stray.com',
-  '1': 'https://tsaitsaichieh.github.io/chat-talker-ai',
-  '2': '',
+  '0': 'https://never-stray-e15a5.web.app',
+  '1': 'https://dotted-sign.web.app',
+  '2': 'https://tsaitsaichieh.github.io/pokemon-boost-emblems',
+  '3': 'https://tsaitsaichieh.github.io/chat-talker-ai',
 }
 export const ProjectsGithub: {[index: string]: string} = {
   '0': 'https://github.com/TsaiTsaiChieh/never-stray',
-  '1': 'https://github.com/TsaiTsaiChieh/chat-talker-ai',
-  '2': 'https://github.com/TsaiTsaiChieh/pet_home',
+  '1': 'https://github.com/TsaiTsaiChieh/dotted-sign',
+  '2': 'https://github.com/TsaiTsaiChieh/pokemon-boost-emblems',
+  '3': 'https://github.com/TsaiTsaiChieh/pet_home',
 }
