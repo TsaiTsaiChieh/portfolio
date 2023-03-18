@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.310ec7b5.css",
-    "main.js": "/portfolio/static/js/main.ae887965.js",
-    "static/media/never-stray.png": "/portfolio/static/media/never-stray.d986e3c2323762c76d4d.png",
+    "main.js": "/portfolio/static/js/main.03953e02.js",
+    "static/media/emblems.png": "/portfolio/static/media/emblems.b339eac5a659a95caeb2.png",
     "static/media/color-sharp1.png": "/portfolio/static/media/color-sharp1.5c67372092a592412081.png",
     "static/media/color-sharp2.png": "/portfolio/static/media/color-sharp2.c7f4af798efbccccd596.png",
     "static/media/lns.png": "/portfolio/static/media/lns.adc640bb0272eeca8b75.png",
     "static/media/banner-bg.png": "/portfolio/static/media/banner-bg.5a511ae8056b69c88c64.png",
+    "static/media/never-stray.png": "/portfolio/static/media/never-stray.0901c9c20a507ab275fc.png",
+    "static/media/dotted-sign.png": "/portfolio/static/media/dotted-sign.a1513a00d05e5395d071.png",
     "static/media/nctu.png": "/portfolio/static/media/nctu.d7ddbceca8c98bab0d17.png",
     "static/media/footer-bg.png": "/portfolio/static/media/footer-bg.0c420d964306863114ba.png",
     "static/media/chat-talker.png": "/portfolio/static/media/chat-talker.152cadf414f838b49823.png",
@@ -24,10 +26,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/getFetch.cjs": "/portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.310ec7b5.css.map": "/portfolio/static/css/main.310ec7b5.css.map",
-    "main.ae887965.js.map": "/portfolio/static/js/main.ae887965.js.map"
+    "main.03953e02.js.map": "/portfolio/static/js/main.03953e02.js.map"
   },
   "entrypoints": [
     "static/css/main.310ec7b5.css",
-    "static/js/main.ae887965.js"
+    "static/js/main.03953e02.js"
   ]
 }

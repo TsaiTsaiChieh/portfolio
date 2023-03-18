@@ -16,9 +16,9 @@
     "go2website": "<1>Go to website</1>"
   },
   "content": {
-    "introduction": "I'm a self-taught full-stack and detailed-oriented engineer.<br>I like to solve problems by coding and keep on writing clean and stable code. <br/>I'm also an <1><2>Adventurer</2></1>, always curious about new technologies and willing to share.<br/>I'm sensitive to others' emotions, try to establish harmony, and minimize conflict.",
+    "introduction": "I'm a self-taught full-stack engineer with a passion for clean and stable code.<br/>As an <1><2>Adventurer</2></1>, always curious about new technologies and willing to share.<br/>Additionally, I excel at creating harmonious environments by recognizing and understanding the emotions of those around me.",
     "backendDetails": "Two years and one year of experience with <0>NodeJS/Express</0> and <1>Python/FastAPI</1> respectively. Almost use SQL-like databases, utilize indexes frequently to speed up query efficiency, and also used <2>Firebase</2> for chat room development. Apply <3>cheerio</3> to crawl  live scores of games information.",
-    "frontendDetails": "I've experience in ReactJS for half a year. Make good use of <0>Redux Toolkit</0> to centrally manage the state and cooperate with <1>RTK Query</1> to simplify the code for loading API data. And I'm used to using Typescript for JS development. Has the basic ability of HTML/CSS, often used <2>styled-component</2> to develop component.",
+    "frontendDetails": "I've experience in ReactJS for one year. Make good use of <0>Redux Toolkit</0> to centrally manage the state and cooperate with <1>RTK Query</1> to simplify the code for loading API data. And I'm used to using Typescript for JS development. Has the basic ability of HTML/CSS, often used <2>styled-component</2> to develop component.",
     "devOpsDetails": "More familiar with AWS cloud services, used with <0>EC2</0>, <1>S3</1>, <2>RDS</2>, etc., and set up <3>CodeDeploy</3> to automatically deploy code. Apply <4>GCE</4> to manage virtual machines and scheduling, and cooperate with <5>PM2</5> to manage multiple NodeJS processes. Utilize <6>Docker-Compose</6> to build backend and frontend services."
   },
   "button": {
@@ -31,15 +31,27 @@
       "jobTitle": "Backend Engineer",
       "company": "Ever Fortune. AI",
       "interval": "2021/01 - Now",
-      "mainTask": "Data Engineering and Labeling Technology Applications.",
+      "mainTask": "Insurance administration system (Frontend)",
+      "subTask": "Data Engineering and Labeling Technology Applications.",
       "tasks": [
-        "Familiar with search API with multiple queries based on <1>RESTful</1> designed, like aggregate function, having clause",
-        "Implement the concept of microservices by <1>Docker-Compose</1> , each project communicates via API gateway",
-        "Connect Google OAuth 2.0 API for third-party login and <1>JWT</1> token for native login",
-        "Using <1>Alembic</1> toolkit for auto-generating database migrations",
-        "Realize the rollback of multiple data creation by <1>Redis</1>",
-        "Infrastructure testing using <1>Pytest</1> before deployments"
+       "Solely responsible for the front-end logic of all pages",
+        "Self-learning and independent development with React and <1>Typescript</1> at a tight deadline",
+        "Effectively communicate with the backend and adjust the APIs based on previous backend experience",
+        "Using <1>Ant Design</1> for React UI library or custom component",
+        "Using <1>Redux Toolkit</1> for centralizing state management and simplifying many common use cases, like creating Reducer",
+        "Optimizing API requests with <1>Redux Toolkit Query</1> elevates user experience",
+        "Passed all vulnerability scans which saved the company hundreds of thousands of NT dollars and no issues were found on <1>SonarQube</1>",
+        "Currently responsible for researching and implementing frontend technologies, as well as taking on teaching and execution responsibilities. Skilled in establishing file structures and code style."
       ],
+      "subTasks": [
+       "Familiar with search API with multiple queries based on <1>RESTful</1> designed, like aggregate function, having clause",
+       "Implement the concept of microservices by <1>Docker-Compose</1> , each project communicates via API gateway",
+       "Connect Google OAuth 2.0 API for third-party login and <1>JWT</1> token for native login",
+       "Using <1>Alembic</1> toolkit for auto-generating database migrations",
+       "Realize the rollback of multiple data creation by <1>Redis</1>",
+       "Infrastructure testing using <1>Pytest</1> before deployments"
+       
+     ],
       "links": [""],
       "tags": [
         "Python",
@@ -151,16 +163,12 @@
     {
       "name": "Never Stray",
       "png": "never-stray",
-      "summary": "An animal adoption platform that integrated the shelters and meet map in Taiwan. Users can quickly find pets through multiple search conditions or track the pets they are interested in. (Second Edition of the LNS Project)",
+      "summary": "Animal adoption platform in Taiwan with shelter integration and meet map. Users can easily find pets using various search filters or keep track of pets they're interested in. (LNS Project 3.0)",
       "tags": [
-        "NodeJS",
-        "MySQL",
-        "Web Crawler",
+        "Firebase",
         "Typescript",
         "React",
-        "Redux Toolkit",
-        "AWS",
-        "Docker"
+        "Redux Toolkit Query"
       ],
       "spend": "spend 336 hrs / 42 wds",
       "website": "<0>website</0>",
@@ -170,9 +178,50 @@
       ]
     },
     {
+     "name": "Dotted Sign",
+     "png": "dotted-sign",
+     "summary": "I participated in an interactive web design competition hosted by HexSchool and created a simple web-based signature service. My submission was selected as a finalist.",
+     "tags": [
+      "Firebase",
+      "Redux Toolkit",
+      "react-i18next",
+      "React Hook Form",
+      "Yup",
+      "React-PDF",
+      "react-signature-canvas"
+     ],
+     "spend": "spend 40 hrs / 5 wds",
+     "website": "<0>website</0>",
+     "tech": [
+      "Provide multiple login/register options, including using native, Google, or Facebook accounts",
+      "Support uploading images or PDF files as background for signature",
+      "Provide interactive operations such as dragging, zooming in/out, etc. for signature when signing documents"
+    ]
+   },
+   {
+    "name": "Emblems",
+    "png": "emblems",
+    "summary": "Provide various filters for players to search for boost emblems and a calculator tool for calculating the effects of the emblems on their Pokemon, suitable for Pokemon game players to reference.",
+    "tags": [
+     "Tailwind",
+     "Vite",
+     "MUI",
+     "react-i18next",
+     "Redux Toolkit"
+    ],
+    "spend": "spend 48 hrs / 6 wds",
+    "website": "<0>website</0>",
+    "tech": [
+      "Adopt react-i18n to support Chinese/English language",
+      "Use Vite to improve development speed",
+      "Apply Tailwind CSS for webpage styling",
+      "Utilize MUI component library as the design foundation to simplify webpage design"
+    ]
+  },
+   {
       "name": "ChatTalker",
       "png": "chat-talker",
-      "summary": "To improve my HTML and CSS skills, I joined a frontend course from Hex School, according to design draft, writing HTML, SCSS, and some JQuery code only, and providing responsive web design.",
+      "summary": "To improve my HTML and CSS skills, I joined a frontend course from HexSchool, according to design draft, writing HTML, SCSS, and JQuery code only, and providing responsive web design.",
       "tags": ["SCSS", "HTML/CSS", "JQuery", "RWD"],
       "spend": "spend 16 hrs / 2  wds",
       "website": "<0>website</0>",
@@ -180,19 +229,7 @@
         "Based on the SMACSS concept to design CSS modular architecture",
         "Learn how to read Figma or Adobe XD design drafts"
       ]
-    },
-    {
-      "name": "LNS",
-      "png": "lns",
-      "summary": "A personal project I completed while at AppWorks School. This website is an animal adoption platform. Users can quickly find pets through multiple search conditions, or published pet adoption information.",
-      "tags": ["NodeJS", "MySQL", "Pug", "Redis", "HTML/CSS", "AWS", "PM2"],
-      "spend": "spend 420 hrs / 52.5 wds",
-      "website": "deprecated",
-      "tech": [
-        "Applied MVC design pattern for better code readability",
-        "Node-schedule for frequent database update",
-        "Improved loading time using caching with Redis server"
-      ]
     }
+    
   ]
 }
