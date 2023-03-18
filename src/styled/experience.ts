@@ -41,6 +41,9 @@ export const MilestoneWrap = styled.div`
   ${MD} {
     padding-left: 90px;
   }
+  span.sub-task {
+    margin-top: 24px;
+  }
 `
 export const JobAndCompany = styled.div`
   display: flex;

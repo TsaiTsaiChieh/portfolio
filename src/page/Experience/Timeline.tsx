@@ -16,8 +16,18 @@ interface Props {
   milestone: MilestoneType
 }
 const Timeline = ({idx, milestone}: Props) => {
-  const {jobTitle, company, interval, icon, mainTask, tasks, links, tags} =
-    milestone
+  const {
+    jobTitle,
+    company,
+    interval,
+    icon,
+    mainTask,
+    tasks,
+    subTask,
+    subTasks,
+    links,
+    tags,
+  } = milestone
 
   return (
     <MilestoneWrap>
@@ -29,11 +39,19 @@ const Timeline = ({idx, milestone}: Props) => {
       <span className='period'>{interval}</span>
       <span className='main-task'>{mainTask}</span>
       <TaskWrap>
-        {tasks.map((ele: any, i: number) => (
+        {tasks.map((ele: string, i: number) => (
           <li key={i}>
             <Trans i18nKey={ele} components={{1: <strong />}} />
           </li>
         ))}
+        {subTask?<span className='sub-task'>{subTask}</span>: null}
+        {subTasks ? <TaskWrap>
+          {subTasks.map((ele: string, i: number)=> (
+            <li key={i}>
+              <Trans i18nKey={ele} components={{1: <strong />}} />
+            </li>
+          ))}
+        </TaskWrap>: null}
       </TaskWrap>
       <LinkWrap>
         {links.map((ele: any, i: number) =>

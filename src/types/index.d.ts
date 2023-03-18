@@ -15,7 +15,9 @@ type MilestoneType = {
   interval: string
   icon: string
   mainTask: string
+  subTask?: string
   tasks: string[]
+  subTasks?: string[]
   links: string[]
   tags: string[]
 }
