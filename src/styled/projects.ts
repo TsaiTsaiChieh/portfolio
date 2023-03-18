@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 import background from '../asset/img/color-sharp2.png'
-import {LG, MD, XXL} from '../constant/Mixin'
+import {LG, MD, XL, XXL} from '../constant/Mixin'
 import {colors} from '../constant/Variables'
 
 export const Section = styled.section`
@@ -47,6 +47,9 @@ export const Btn = styled.button`
   z-index: 0;
   overflow: hidden;
   opacity: 0.75;
+  &:nth-child(2) {
+    border-right: 1px solid ${colors.black['opacity-50']};
+  }
   &:first-child {
     border-radius: 50px 0 0 50px;
     border: 1px solid ${colors.black['opacity-50']};
@@ -95,6 +98,28 @@ export const ImgWrap = styled.div`
   position: relative;
   overflow: hidden;
   border-radius: 30px;
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 224px;
+    ${MD} {
+      width: 694px;
+      height: 335px;
+    }
+    ${LG} {
+      width: 576px;
+      height: 335px;
+    }
+    ${XL} {
+      width: 684px;
+      height: 335px;
+    }
+    ${XXL} {
+      width: 792px;
+      height: 388px;
+    }
+  }
+
   a.mask {
     display: inline-block;
     &::before {
@@ -208,7 +233,7 @@ export const TagWrap = styled.ul`
   gap: 10px;
   margin: 15px 0;
 `
-export const SkillTag = styled.li<{color: string}>`
+export const SkillTag = styled.li<{ color: string }>`
   background: ${(props) => props.color};
   font-style: italic;
   font-size: 12px;
