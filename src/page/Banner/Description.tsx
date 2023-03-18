@@ -3,7 +3,12 @@ import Typewriter from 'typewriter-effect'
 
 import {Personality} from '../../constant/Links'
 import {
-  AnimatedBox, DescriptionContainer, Details, DownloadCV, DownloadIcon, TagLine,
+  AnimatedBox,
+  DescriptionContainer,
+  Details,
+  DownloadCV,
+  DownloadIcon,
+  TagLine,
 } from '../../styled/banner'
 
 interface Props {
@@ -13,9 +18,9 @@ const Description = ({isVisible}: Props) => {
   const {t} = useTranslation()
 
   return (
-    <DescriptionContainer className={
-      isVisible ? 'animate__animated animate__fadeIn' : ''
-    }>
+    <DescriptionContainer
+      className={isVisible ? 'animate__animated animate__fadeIn' : ''}
+    >
       <TagLine>
         <Trans i18nKey='title.welcome' />
       </TagLine>
@@ -42,8 +47,12 @@ const Description = ({isVisible}: Props) => {
         />
       </Details>
       <AnimatedBox>
-        <DownloadCV>
-          <Trans i18nKey='button.downloadCV' />
+        <DownloadCV
+          as='a'
+          href='/蔡采潔_TsaiChiehTsai_2023_03.pdf'
+          download
+        >
+          <Trans i18nKey='button.downloadCV'/>
           <DownloadIcon />
         </DownloadCV>
       </AnimatedBox>
