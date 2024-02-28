@@ -61,6 +61,7 @@ export const JobAndCompany = styled.div`
     background: white;
     border-radius: 50%;
     cursor: pointer;
+    object-fit: contain;
   }
   ${MD} {
     font-size: 24px;
