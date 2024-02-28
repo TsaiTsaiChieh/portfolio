@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6f0159a3.css",
-    "main.js": "/portfolio/static/js/main.ff9468a3.js",
+    "main.js": "/portfolio/static/js/main.9fb5817a.js",
     "static/media/emblems.png": "/portfolio/static/media/emblems.b339eac5a659a95caeb2.png",
     "static/media/color-sharp1.png": "/portfolio/static/media/color-sharp1.5c67372092a592412081.png",
     "static/media/color-sharp2.png": "/portfolio/static/media/color-sharp2.c7f4af798efbccccd596.png",
@@ -16,6 +16,7 @@
     "static/media/CentraNo2-Bold.ttf": "/portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/tsmc.png": "/portfolio/static/media/tsmc.f34b883fe09017c30cda.png",
     "static/media/planet.svg": "/portfolio/static/media/planet.457fbcb0c79717f352b3108fa93e392a.svg",
     "static/media/wanin.png": "/portfolio/static/media/wanin.3f8d0a5b65c5a50fb012.png",
     "static/media/appWorks.png": "/portfolio/static/media/appWorks.84cabc55e57ad5933bc2.png",
@@ -26,10 +27,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/getFetch.cjs": "/portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.6f0159a3.css.map": "/portfolio/static/css/main.6f0159a3.css.map",
-    "main.ff9468a3.js.map": "/portfolio/static/js/main.ff9468a3.js.map"
+    "main.9fb5817a.js.map": "/portfolio/static/js/main.9fb5817a.js.map"
   },
   "entrypoints": [
     "static/css/main.6f0159a3.css",
-    "static/js/main.ff9468a3.js"
+    "static/js/main.9fb5817a.js"
   ]
 }

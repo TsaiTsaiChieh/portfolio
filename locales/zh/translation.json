@@ -27,6 +27,18 @@
  },
  "milestone": [
   {
+   "icon": "tsmc",
+   "jobTitle": "工程師",
+   "company": "台灣積體電路製造公司",
+   "interval": "112/08 - Now",
+   "mainTask": "",
+   "subTask": "",
+   "tasks": [],
+   "subTasks": [],
+   "links": [""],
+   "tags": ["Angular"]
+  },
+  {
    "icon": "everFortune",
    "jobTitle": "工程師",
    "company": "長佳智能",
