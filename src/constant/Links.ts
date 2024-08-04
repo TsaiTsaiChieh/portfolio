@@ -1,21 +1,21 @@
 /* eslint-disable max-len */
-export const NavbarHref: {[index: string]: string} = {
+export const NavbarHref: { [index: string]: string } = {
   home: '#home',
   skills: '#skills',
   experience: '#experience',
   projects: '#projects',
 }
-export const SocialHref: {[index: string]: string} = {
+export const SocialHref: { [index: string]: string } = {
   linkedIn:
     'https://www.linkedin.com/in/%E9%87%87%E6%BD%94-%E8%94%A1-211aa6151',
   cakeResume: 'https://www.cakeresume.com/tsaitsaichieh',
   github: 'https://github.com/TsaiTsaiChieh',
 }
-export const Personality: {[index: string]: string} = {
+export const Personality: { [index: string]: string } = {
   adventurer: 'https://www.16personalities.com/isfp-personality',
 }
 
-export const SkillHref: {[skill in SkillCategory]: string[]} = {
+export const SkillHref: { [skill in SkillCategory]: string[] } = {
   backend: [
     'https://expressjs.com',
     'https://fastapi.tiangolo.com',
@@ -37,25 +37,29 @@ export const SkillHref: {[skill in SkillCategory]: string[]} = {
     'https://docs.docker.com/compose',
   ],
 }
-export const ExperienceHref: {[index: string]: string[]} = {
+export const ExperienceHref: { [index: string]: string[] } = {
   '0': [],
-  '1': ['https://github.com/TsaiTsaiChieh/sport-api', 'https://github.com/TsaiTsaiChieh/sport-crawler'],
+  '1': [],
   '2': [
-    'https://github.com/TsaiTsaiChieh/stylish', 'https://github.com/TsaiTsaiChieh/pet_home',
+    'https://github.com/TsaiTsaiChieh/sport-api',
+    'https://github.com/TsaiTsaiChieh/sport-crawler',
   ],
-  '3': [],
+  '3': [
+    'https://github.com/TsaiTsaiChieh/stylish',
+    'https://github.com/TsaiTsaiChieh/pet_home',
+  ],
   '4': [],
-  '5': ['https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22107NCTU5112002%22.&searchmode=basic'],
-  '6': [],
+  '5': [],
+  '6': ['https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22107NCTU5112002%22.&searchmode=basic'],
   '7': [],
 }
-export const ProjectsHref: {[index: string]: string} = {
+export const ProjectsHref: { [index: string]: string } = {
   '0': 'https://never-stray-e15a5.web.app',
   '1': 'https://dotted-sign.web.app',
   '2': 'https://tsaitsaichieh.github.io/pokemon-boost-emblems',
   '3': 'https://tsaitsaichieh.github.io/chat-talker-ai',
 }
-export const ProjectsGithub: {[index: string]: string} = {
+export const ProjectsGithub: { [index: string]: string } = {
   '0': 'https://github.com/TsaiTsaiChieh/never-stray',
   '1': 'https://github.com/TsaiTsaiChieh/dotted-sign',
   '2': 'https://github.com/TsaiTsaiChieh/pokemon-boost-emblems',
