@@ -32,7 +32,7 @@
       "company": "台灣積體電路製造公司",
       "interval": "112/08 - 現今",
       "mainTask": "工作流的管理系統（前端）",
-      "subTask": "跨廠整合的狀態變數自動化系統",
+      "subTask": "跨廠整合的製程狀態資料收集的自動化系統",
       "tasks": [
         "使用 Ant Design、Material UI 和 ag-grid-angular 建立 UI，並運用 NgRx 進行狀態管理，集中管理工作流程和數據視覺化",
         "使用 Monaco Editor 開發 JSON/代碼編輯器，取代手動操作 Postman 以提升效率",
