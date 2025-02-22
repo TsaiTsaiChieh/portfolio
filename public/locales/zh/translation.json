@@ -1,290 +1,257 @@
 {
- "nav": {
-  "skills": "技能",
-  "experience": "經歷",
-  "projects": "個人專案"
- },
- "title": {
-  "welcome": "有嚴重程式碼潔癖的工程師",
-  "fullStack": "從後端逐步走向前端世界⋯",
-  "cleanCode": "喜歡寫整潔和易維護的程式碼",
-  "backend": "後端技術",
-  "frontend": "前端技術",
-  "devOps": "開發維運"
- },
- "hint": {
-  "go2website": "<1>瞧瞧網站</1>"
- },
- "content": {
-  "introduction": "我是個自學能力強且注重細節的全端工程師。<br/>喜歡透過程式來解決問題，並撰寫乾淨且穩定的程式碼。<br/>我也擁有<1><2>冒險家</2></1>的精神，總是對新技術充滿好奇並樂於分享所學。<br/>同時我對他人的情緒敏感，常努力建立和諧關係，盡量減少衝突的發生。",
-  "backendDetails": "<0>NodeJS/Express</0> 的經驗約兩年；<1>Python/FastAPI</1> 的經驗一年。大多使用 SQL 類型的資料庫，並善用索引來加快查詢效率，也使用過 <2>Firebase</2> 進行聊天室的開發。爬蟲則使用 <3>cheerio</3> 來爬取運動比賽的即時比分等資訊。",
-  "frontendDetails": "React 的經驗一年，並善用 <0>Redux Toolkit</0> 將狀態集中管理，而配合 <1>RTK Query</1> 可簡化載入 API 資料的程式碼，也習慣以 Typescript 來作 JS 的開發。已有 HTML/CSS 切版的基礎能力，經常使用 <2>styled-component</2> 開發元件。",
-  "devOpsDetails": "較擅長 AWS 的雲端服務，使用過 <0>EC2</0>、<1>S3</1>、<2>RDS</2> 等服務，也會設定 <3>CodeDeploy</3> 讓程式碼可自動部署。使用 <4>GCE</4> 來管理虛擬機器和排程，並搭配 <5>PM2</5> 來管理多個 NodeJS 的程序。Docker 則使用 <6>Docker-Compose</6> 來搭建前後端服務。"
- },
- "button": {
-  "translation": "EN",
-  "downloadCV": "下載我的履歷"
- },
- "milestone": [
-  {
-   "icon": "tsmc",
-   "jobTitle": "工程師",
-   "company": "台灣積體電路製造公司",
-   "interval": "112/08 - Now",
-   "mainTask": "",
-   "subTask": "",
-   "tasks": [],
-   "subTasks": [],
-   "links": [""],
-   "tags": ["Angular"]
+  "nav": {
+    "skills": "技能",
+    "experience": "經歷",
+    "projects": "個人專案"
   },
-  {
-   "icon": "everFortune",
-   "jobTitle": "工程師",
-   "company": "長佳智能",
-   "interval": "109/01 - 112/08",
-   "mainTask": "保險後台管理系統（前端）",
-   "subTask": "資料工程和標記應用系統",
-   "tasks": [
-    "獨立完成所有頁面的前端邏輯",
-    "以自學的 React 和 Typescript 在緊迫時間內完成開發",
-    "藉由以往後端的經驗，有效地和後端工程師溝通",
-    "使用 <1>Ant Design</1> 當作 UI 框架或客製化元件",
-    "使用 <1>Redux Toolkit</1> 集中狀態管理，並簡化許多常見案例：如建立 Reducer",
-    "使用 <1>Redux Toolkit Query</1> 來優化 API 請求以提升使用者體驗",
-    "通過所有弱點掃描的測試，可為公司節省數十萬台幣，且經 <1> SonarQube </1>掃描後未有任何問題",
-    "目前負責前端技術的研究、導入和教學，並擅長建立良好的檔案結構和程式碼風格"
-   ],
-   "subTasks": [
-    "熟悉基於 <1>RESTful</1> 概念來設計多重查詢的 API，如聚合函數和 Having 子句的條件查詢",
-    "透過 <1>Docker-Compose</1>來實現微服務的概念，專案間可藉由 API 通道進行溝通",
-    "串接 Google OAuth 2.0 進行第三方登入和 <1>JWT</1> token 實現傳統的帳號密碼登入",
-    "使用 <1>Alembic</1> 套件自動生成資料庫遷移",
-    "使用 <1>Redis</1> 來實現創建多重資料的回滾",
-    "在部署前使用 <1>Pytest</1> 進行測試"
-   ],
-   "links": [
-    ""
-   ],
-   "tags": [
-    "Python",
-    "PostgreSQL",
-    "Typescript",
-    "React",
-    "Redux",
-    "HTML/CSS",
-    "Docker"
-   ]
+  "title": {
+    "welcome": "有嚴重程式碼潔癖的工程師",
+    "fullStack": "從後端逐步走向前端世界⋯",
+    "cleanCode": "喜歡寫整潔和易維護的程式碼",
+    "backend": "後端技術",
+    "frontend": "前端技術",
+    "devOps": "開發維運"
   },
-  {
-   "icon": "getsInfo",
-   "jobTitle": "後端工程師",
-   "company": "搞之訊科技 (新創)",
-   "interval": "108/11 - 109/10",
-   "mainTask": "運動彩券分析和預測平台",
-   "tasks": [
-    "導入 <1>AJV</1> 套件驗證資料的輸入和重構專案的檔案架構",
-    "使用 firebase 的即時資料庫開發聊天室",
-    "為 API 和排程撰寫穩定且乾淨的程式碼",
-    "修復資深工程師的錯誤和程式碼重構"
-   ],
-   "links": [
-    "<0>APIs</0>",
-    "<1>排程</1>"
-   ],
-   "tags": [
-    "NodeJS",
-    "Firebase",
-    "NoSQL",
-    "MySQL",
-    "GCP",
-    "PM2"
-   ]
+  "hint": {
+    "go2website": "<1>瞧瞧網站</1>"
   },
-  {
-   "icon": "appWorks",
-   "jobTitle": "後端實習生",
-   "company": "AppWorks School",
-   "interval": "108/06 - 108/10",
-   "mainTask": "",
-   "tasks": [
-    "透過 1000 小時沈浸式的培訓，建立了工程思維和解決問題的能力，並完成了“讓愛不流浪”專案",
-    "透過“Stylish”專案與前端和 iOS 成員合作，增加溝通的技巧",
-    "在個人專案中採用敏捷和 Scrum 方法，在期限內完成所有功能"
-   ],
-   "links": [
-    "Stylish",
-    "讓愛不流浪"
-   ],
-   "tags": [
-    "NodeJS",
-    "MySQL",
-    "HTML/CSS",
-    "AWS"
-   ]
+  "content": {
+    "introduction": "我是個自學能力強且注重細節的全端工程師。<br/>喜歡透過程式來解決問題，並撰寫乾淨且穩定的程式碼。<br/>我也擁有<1><2>冒險家</2></1>的精神，總是對新技術充滿好奇並樂於分享所學。<br/>同時我對他人的情緒敏感，常努力建立和諧關係，盡量減少衝突的發生。",
+    "backendDetails": "<0>NodeJS/Express</0> 的經驗約兩年；<1>Python/FastAPI</1> 的經驗一年。大多使用 SQL 類型的資料庫，並善用索引來加快查詢效率，也使用過 <2>Firebase</2> 進行聊天室的開發。爬蟲則使用 <3>cheerio</3> 來爬取運動比賽的即時比分等資訊。",
+    "frontendDetails": "React 的經驗一年，並善用 <0>Redux Toolkit</0> 將狀態集中管理，而配合 <1>RTK Query</1> 可簡化載入 API 資料的程式碼，也習慣以 Typescript 來作 JS 的開發。已有 HTML/CSS 切版的基礎能力，經常使用 <2>styled-component</2> 開發元件。",
+    "devOpsDetails": "較擅長 AWS 的雲端服務，使用過 <0>EC2</0>、<1>S3</1>、<2>RDS</2> 等服務，也會設定 <3>CodeDeploy</3> 讓程式碼可自動部署。使用 <4>GCE</4> 來管理虛擬機器和排程，並搭配 <5>PM2</5> 來管理多個 NodeJS 的程序。Docker 則使用 <6>Docker-Compose</6> 來搭建前後端服務。"
   },
-  {
-   "icon": "nctu",
-   "jobTitle": "研究助理",
-   "company": "國立交通大學",
-   "interval": "108/03 - 108/06",
-   "mainTask": "",
-   "tasks": [
-    "撰寫基於機器學習的電腦輔助診斷系統的論文，並準備投至國際期刊"
-   ],
-   "links": [
-    ""
-   ],
-   "tags": [
-    ""
-   ]
+  "button": {
+    "translation": "EN",
+    "downloadCV": "下載我的履歷"
   },
-  {
-   "icon": "everFortune",
-   "jobTitle": "研發助理工程師",
-   "company": "長佳智能",
-   "interval": "107/11 - 108/02",
-   "mainTask": "",
-   "tasks": [
-    "使用 Python 調整深度學習模型的參數",
-    "為醫生建立 X 光的標記系統"
-   ],
-   "links": [
-    ""
-   ],
-   "tags": [
-    "Python"
-   ]
-  },
-  {
-   "icon": "nctu",
-   "jobTitle": "理學碩士",
-   "company": "國立交通大學",
-   "interval": "105/09 - 107/08",
-   "mainTask": "生物資訊及系統生物",
-   "tasks": [
-    "4.1/4.3 成績平均績點",
-    "主要修習課程：機器學習、影像處理",
-    "發佈論文 〈研發創新的癌症計分卡方法從淋巴結病理切片來預測大腸癌的轉移〉，使用遺傳演算法結合田口法，可量化大腸淋巴結的轉移程度"
-   ],
-   "links": [
-    "論文"
-   ],
-   "tags": [
-    ""
-   ]
-  },
-  {
-   "icon": "wanin",
-   "jobTitle": "程式設計實習生",
-   "company": "網銀國際",
-   "interval": "105/02 - 105/06",
-   "mainTask": "實習時數: 551 小時",
-   "tasks": [
-    "使用 JAVA 來開發安卓手機的拼圖遊戲",
-    "使用 Unity 和 C# 來開發小蜜蜂和洛克人等遊戲，學習場景和相機等設計遊戲的概念"
-   ],
-   "links": [
-    ""
-   ],
-   "tags": [
-    ""
-   ]
-  },
-  {
-   "icon": "fcu",
-   "jobTitle": "理學學士",
-   "company": "逢甲大學",
-   "interval": "101/09 - 105/06",
-   "mainTask": "資訊工程學系",
-   "tasks": [
-    "3.8/4 成績平均績點",
-    "為中華民國婓陶婓榮譽學會學員",
-    "四次榮獲書卷獎（每學期成績前 5% 的學生）"
-   ],
-   "links": [
-    ""
-   ],
-   "tags": [
-    ""
-   ]
-  }
- ],
- "projects": [
-  {
-   "name": "讓愛不流浪",
-   "png": "never-stray",
-   "summary": "整合政府收容所和台灣認養地圖的動物認養平台，使用者可藉由多重搜尋條件找到寵物或者追蹤自己感興趣的寵物。（為認養平台的第三個版本）",
-   "tags": [
-    "Firebase",
-    "Typescript",
-    "React",
-    "Redux Toolkit"
-   ],
-   "spend": "花費約 336 小時 / 42 工作天",
-   "website": "<0>網站</0>",
-   "tech": [
-    "使用 Redux Toolkit 將狀態集中管理，並簡化許多常見的案例，如建立 reducer",
-    "透過 Redux Toolkit 查詢，不需自己編寫資料獲取和快取等程式"
-   ]
-  },
-  {
-   "name": "點點簽",
-   "png": "dotted-sign",
-   "summary": "我參加由六角學院舉辦的互動式網頁設計比賽，透過設計師提供的 UI 設計稿和使用情境，開發簡單易用的網頁版簽名服務，最終獲得佳作入選。",
-   "tags": [
-    "Firebase",
-    "Redux Toolkit",
-    "react-i18next",
-    "React Hook Form",
-    "Yup",
-    "React-PDF",
-    "react-signature-canvas"
-   ],
-   "spend": "花費約 40 小時 / 5 工作天",
-   "website": "<0>website</0>",
-   "tech": [
-    "提供多種登入/註冊方式，包括使用原生、Google 或 Facebook 帳號站",
-    "支援上傳圖片或 PDF 文件作為簽名檔的背景",
-    "在簽署文件時，提供簽名檔的拖拉、放大縮小等互動操作"
-   ]
-  },
-  {
-   "name": "支援徽章",
-   "png": "emblems",
-   "summary": "提供多種篩選器供玩家篩選徽章，藉以幫助玩家了解如何使用徽章提高寶可夢的能力，適合寶可夢遊戲玩家參考。",
-   "tags": [
-    "Tailwind",
-    "Vite",
-    "MUI",
-    "react-i18next",
-    "Redux Toolkit"
-   ],
-   "spend": "花費約 48 小時 / 6 工作天",
-   "website": "<0>website</0>",
-   "tech": [
-    "採用 react-i18n 以支援中文/英文語言",
-    "Vite 被用來提升開發速度",
-    "網頁樣式使用 Tailwind CSS",
-    "設計基礎採用 MUI 元件庫，使得網頁設計簡潔易用"
-   ]
-  },
-  {
-   "name": "聊天機器人",
-   "png": "chat-talker",
-   "summary": "為了提升自己的 HTML 和 CSS 技能，我參加了由六角學院所開設的前端課程，並依照設計稿，撰寫了 HTML、SCSS 和 JQuery 的程式碼，同時還實現了響應式網頁設計。",
-   "tags": [
-    "SCSS",
-    "HTML/CSS",
-    "JQuery",
-    "RWD"
-   ],
-   "spend": "花費約 16 小時 / 2 工作天",
-   "website": "<0>網站</0>",
-   "tech": [
-    "根據 SMACSS 的概念，設計 CSS 模組化架構",
-    "學習如何閱讀 Figma 或 Adobe XD 設計稿"
-   ]
-  }
- ]
+  "milestone": [
+    {
+      "icon": "tsmc",
+      "jobTitle": "工程師",
+      "company": "台灣積體電路製造公司",
+      "interval": "112/08 - 現今",
+      "mainTask": "工作流的管理系統（前端）",
+      "subTask": "跨廠整合的狀態變數自動化系統",
+      "tasks": [
+        "使用 Ant Design、Material UI 和 ag-grid-angular 建立 UI，並運用 NgRx 進行狀態管理，集中管理工作流程和數據視覺化",
+        "使用 Monaco Editor 開發 JSON/代碼編輯器，取代手動操作 Postman 以提升效率",
+        "支援依工作流名稱、廠區和時間範圍查詢，並提供批次操作功能，如重新執行、暫停與終止工作流，讓工作流的管理更靈活",
+        "設計驗證機制，如命名規則、變更檢測儲存及易讀的 Cron 表達式，避免使用者操作錯誤，提升整體的使用體驗",
+        "透過串接 Bearer Token，IT/ECIM 團隊能以驗證過的身份定義、排程及管理工作流，並記錄操作日誌以便追蹤",
+        "整合互動式 d3.js 視覺化，讓使用者能夠查看、拖曳、縮放並互動操作工作流圖表，快速理解工作流程"
+      ],
+      "subTasks": [
+        "擁有全端開發經驗，能設計彈性的 API 文件，以減少工程師間的溝通成本",
+        "開發自動化系統，將製程狀態資料收集的替換時間從一週縮短到一天以內，並減少 IT 部門約 80% 的手動工作量",
+        "開發讓使用者能透過 Excel 檔案上傳資料的介面，並內建防呆資料驗證，協助使用者建立正確的製程狀態資料收集",
+        "主動根據 ECIM/PM/IT 的模糊反饋改善 UI/UX，專注細節以提升系統的可用性並滿足使用者需求",
+        "主要使用 Angular 進行前端開發，並運用 NgRx 進行狀態管理，同時維護後端以確保系統的穩定性和可維護性"
+      ],
+      "links": [""],
+      "tags": ["Angular", "Azure", "Golang", "Kubernetes"]
+    },
+    {
+      "icon": "everFortune",
+      "jobTitle": "工程師",
+      "company": "長佳智能",
+      "interval": "109/01 - 112/08",
+      "mainTask": "保險後台管理系統（前端）",
+      "subTask": "資料工程和標記應用系統",
+      "tasks": [
+        "獨立完成所有頁面的前端邏輯",
+        "以自學的 React 和 Typescript 在緊迫時間內完成開發",
+        "藉由以往後端的經驗，有效地和後端工程師溝通",
+        "使用 <1>Ant Design</1> 當作 UI 框架或客製化元件",
+        "使用 <1>Redux Toolkit</1> 集中狀態管理，並簡化許多常見案例：如建立 Reducer",
+        "使用 <1>Redux Toolkit Query</1> 來優化 API 請求以提升使用者體驗",
+        "通過所有弱點掃描的測試，可為公司節省數十萬台幣，且經 <1> SonarQube </1>掃描後未有任何問題",
+        "目前負責前端技術的研究、導入和教學，並擅長建立良好的檔案結構和程式碼風格"
+      ],
+      "subTasks": [
+        "熟悉基於 <1>RESTful</1> 概念來設計多重查詢的 API，如聚合函數和 Having 子句的條件查詢",
+        "透過 <1>Docker-Compose</1>來實現微服務的概念，專案間可藉由 API 通道進行溝通",
+        "串接 Google OAuth 2.0 進行第三方登入和 <1>JWT</1> token 實現傳統的帳號密碼登入",
+        "使用 <1>Alembic</1> 套件自動生成資料庫遷移",
+        "使用 <1>Redis</1> 來實現創建多重資料的回滾",
+        "在部署前使用 <1>Pytest</1> 進行測試"
+      ],
+      "links": [""],
+      "tags": [
+        "Python",
+        "PostgreSQL",
+        "Typescript",
+        "React",
+        "Redux",
+        "HTML/CSS",
+        "Docker"
+      ]
+    },
+    {
+      "icon": "getsInfo",
+      "jobTitle": "後端工程師",
+      "company": "搞之訊科技 (新創)",
+      "interval": "108/11 - 109/10",
+      "mainTask": "運動彩券分析和預測平台",
+      "tasks": [
+        "導入 <1>AJV</1> 套件驗證資料的輸入和重構專案的檔案架構",
+        "使用 firebase 的即時資料庫開發聊天室",
+        "為 API 和排程撰寫穩定且乾淨的程式碼",
+        "修復資深工程師的錯誤和程式碼重構"
+      ],
+      "links": ["<0>APIs</0>", "<1>排程</1>"],
+      "tags": ["NodeJS", "Firebase", "NoSQL", "MySQL", "GCP", "PM2"]
+    },
+    {
+      "icon": "appWorks",
+      "jobTitle": "後端實習生",
+      "company": "AppWorks School",
+      "interval": "108/06 - 108/10",
+      "mainTask": "",
+      "tasks": [
+        "透過 1000 小時沈浸式的培訓，建立了工程思維和解決問題的能力，並完成了“讓愛不流浪”專案",
+        "透過“Stylish”專案與前端和 iOS 成員合作，增加溝通的技巧",
+        "在個人專案中採用敏捷和 Scrum 方法，在期限內完成所有功能"
+      ],
+      "links": ["Stylish", "讓愛不流浪"],
+      "tags": ["NodeJS", "MySQL", "HTML/CSS", "AWS"]
+    },
+    {
+      "icon": "nctu",
+      "jobTitle": "研究助理",
+      "company": "國立交通大學",
+      "interval": "108/03 - 108/06",
+      "mainTask": "",
+      "tasks": ["撰寫基於機器學習的電腦輔助診斷系統的論文，並準備投至國際期刊"],
+      "links": [""],
+      "tags": [""]
+    },
+    {
+      "icon": "everFortune",
+      "jobTitle": "研發助理工程師",
+      "company": "長佳智能",
+      "interval": "107/11 - 108/02",
+      "mainTask": "",
+      "tasks": [
+        "使用 Python 調整深度學習模型的參數",
+        "為醫生建立 X 光的標記系統"
+      ],
+      "links": [""],
+      "tags": ["Python"]
+    },
+    {
+      "icon": "nctu",
+      "jobTitle": "理學碩士",
+      "company": "國立交通大學",
+      "interval": "105/09 - 107/08",
+      "mainTask": "生物資訊及系統生物",
+      "tasks": [
+        "4.1/4.3 成績平均績點",
+        "主要修習課程：機器學習、影像處理",
+        "發佈論文 〈研發創新的癌症計分卡方法從淋巴結病理切片來預測大腸癌的轉移〉，使用遺傳演算法結合田口法，可量化大腸淋巴結的轉移程度"
+      ],
+      "links": ["論文"],
+      "tags": [""]
+    },
+    {
+      "icon": "wanin",
+      "jobTitle": "程式設計實習生",
+      "company": "網銀國際",
+      "interval": "105/02 - 105/06",
+      "mainTask": "實習時數: 551 小時",
+      "tasks": [
+        "使用 JAVA 來開發安卓手機的拼圖遊戲",
+        "使用 Unity 和 C# 來開發小蜜蜂和洛克人等遊戲，學習場景和相機等設計遊戲的概念"
+      ],
+      "links": [""],
+      "tags": [""]
+    },
+    {
+      "icon": "fcu",
+      "jobTitle": "理學學士",
+      "company": "逢甲大學",
+      "interval": "101/09 - 105/06",
+      "mainTask": "資訊工程學系",
+      "tasks": [
+        "3.8/4 成績平均績點",
+        "為中華民國婓陶婓榮譽學會學員",
+        "四次榮獲書卷獎（每學期成績前 5% 的學生）"
+      ],
+      "links": [""],
+      "tags": [""]
+    }
+  ],
+  "projects": [
+    {
+      "name": "浪窩",
+      "png": "pet-adoption",
+      "summary": "整合全國收容中心寵物數據，提供清晰分類和篩選功能，讓用戶快速瀏覽各類毛小孩，並連結至政府動物收容管理系統。（為認養平台的第四個版本）",
+      "tags": ["React", "Nextjs", "Vercel", "Redux Toolkit Query"],
+      "spend": "花費約 240 小時 / 30 工作天",
+      "website": "<0>網站</0>",
+      "tech": [
+        "使用 Next.js 建構快速、可擴展的 React 應用，並透過 SSR 和 SSG 提升效能",
+        "部署使用 Vercel 並透過部署日期進行版本追蹤"
+      ]
+    },
+    {
+      "name": "讓愛不流浪",
+      "png": "never-stray",
+      "summary": "整合政府收容所和台灣認養地圖的動物認養平台，使用者可藉由多重搜尋條件找到寵物或者追蹤自己感興趣的寵物。（為認養平台的第三個版本）",
+      "tags": ["Firebase", "Typescript", "React", "Redux Toolkit"],
+      "spend": "花費約 336 小時 / 42 工作天",
+      "website": "<0>網站</0>",
+      "tech": [
+        "使用 Redux Toolkit 將狀態集中管理，並簡化許多常見的案例，如建立 reducer",
+        "透過 Redux Toolkit 查詢，不需自己編寫資料獲取和快取等程式"
+      ]
+    },
+    {
+      "name": "點點簽",
+      "png": "dotted-sign",
+      "summary": "我參加由六角學院舉辦的互動式網頁設計比賽，透過設計師提供的 UI 設計稿和使用情境，開發簡單易用的網頁版簽名服務，最終獲得佳作入選。",
+      "tags": [
+        "Firebase",
+        "Redux Toolkit",
+        "react-i18next",
+        "React Hook Form",
+        "Yup",
+        "React-PDF",
+        "react-signature-canvas"
+      ],
+      "spend": "花費約 40 小時 / 5 工作天",
+      "website": "<0>website</0>",
+      "tech": [
+        "提供多種登入/註冊方式，包括使用原生、Google 或 Facebook 帳號站",
+        "支援上傳圖片或 PDF 文件作為簽名檔的背景",
+        "在簽署文件時，提供簽名檔的拖拉、放大縮小等互動操作"
+      ]
+    },
+    {
+      "name": "支援徽章",
+      "png": "emblems",
+      "summary": "提供多種篩選器供玩家篩選徽章，藉以幫助玩家了解如何使用徽章提高寶可夢的能力，適合寶可夢遊戲玩家參考。",
+      "tags": ["Tailwind", "Vite", "MUI", "react-i18next", "Redux Toolkit"],
+      "spend": "花費約 48 小時 / 6 工作天",
+      "website": "<0>website</0>",
+      "tech": [
+        "採用 react-i18n 以支援中文/英文語言",
+        "Vite 被用來提升開發速度",
+        "網頁樣式使用 Tailwind CSS",
+        "設計基礎採用 MUI 元件庫，使得網頁設計簡潔易用"
+      ]
+    },
+    {
+      "name": "聊天機器人",
+      "png": "chat-talker",
+      "summary": "為了提升自己的 HTML 和 CSS 技能，我參加了由六角學院所開設的前端課程，並依照設計稿，撰寫了 HTML、SCSS 和 JQuery 的程式碼，同時還實現了響應式網頁設計。",
+      "tags": ["SCSS", "HTML/CSS", "JQuery", "RWD"],
+      "spend": "花費約 16 小時 / 2 工作天",
+      "website": "<0>網站</0>",
+      "tech": [
+        "根據 SMACSS 的概念，設計 CSS 模組化架構",
+        "學習如何閱讀 Figma 或 Adobe XD 設計稿"
+      ]
+    }
+  ]
 }

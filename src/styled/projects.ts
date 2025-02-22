@@ -50,6 +50,9 @@ export const Btn = styled.button`
   &:nth-child(2) {
     border-right: 1px solid ${colors.black['opacity-50']};
   }
+  &:nth-child(3) {
+    border-right: 1px solid ${colors.black['opacity-50']};
+  }
   &:first-child {
     border-radius: 50px 0 0 50px;
     border: 1px solid ${colors.black['opacity-50']};
