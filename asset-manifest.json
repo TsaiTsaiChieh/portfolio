@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6f0159a3.css",
-    "main.js": "/portfolio/static/js/main.33f0ab07.js",
+    "main.js": "/portfolio/static/js/main.d7c5eacf.js",
     "static/media/pet-adoption.png": "/portfolio/static/media/pet-adoption.5eec7fbd81402cedc499.png",
     "static/media/emblems.png": "/portfolio/static/media/emblems.b339eac5a659a95caeb2.png",
     "static/media/color-sharp1.png": "/portfolio/static/media/color-sharp1.5c67372092a592412081.png",
@@ -27,11 +27,12 @@
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "index.html": "/portfolio/index.html",
     "static/media/getFetch.cjs": "/portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "static/media/azure-devops.svg": "/portfolio/static/media/azure-devops.a973da3a8a7fb34a883b41e2d9c575a9.svg",
     "main.6f0159a3.css.map": "/portfolio/static/css/main.6f0159a3.css.map",
-    "main.33f0ab07.js.map": "/portfolio/static/js/main.33f0ab07.js.map"
+    "main.d7c5eacf.js.map": "/portfolio/static/js/main.d7c5eacf.js.map"
   },
   "entrypoints": [
     "static/css/main.6f0159a3.css",
-    "static/js/main.33f0ab07.js"
+    "static/js/main.d7c5eacf.js"
   ]
 }
