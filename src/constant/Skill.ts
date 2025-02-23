@@ -20,10 +20,10 @@ export const SkillTags: {[skills in SkillCategory]: string[]} = {
     'Redux Toolkit',
     'RWD',
   ],
-  devOps: ['AWS', 'GCP', 'Docker', 'PM2'],
+  devOps: ['Azure DevOps', 'Docker', 'AWS', 'Vercel'],
 }
 export const Skills: {[skills in SkillCategory]: string[]} = {
   backend: ['NodeJS', 'Python', 'MySQL', 'Web Crawler'],
-  frontend: ['React', 'Redux Toolkit', 'Typescript', 'HTML/CSS'],
+  frontend: ['React', 'Redux Toolkit', 'Angular', 'Typescript'],
   devOps: ['AWS', 'GCP', 'Docker', 'PM2'],
 }

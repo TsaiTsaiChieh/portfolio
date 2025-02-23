@@ -25,16 +25,16 @@ export const SkillHref: { [skill in SkillCategory]: string[] } = {
   frontend: [
     'https://redux-toolkit.js.org/tutorials/overview',
     'https://redux-toolkit.js.org/rtk-query/overview',
-    'https://styled-components.com',
+    'https://ngrx.io',
   ],
   devOps: [
+    'https://azure.microsoft.com',
+    'https://docs.docker.com/compose',
     'https://aws.amazon.com/ec2',
     'https://aws.amazon.com/s3',
     'https://aws.amazon.com/rds',
     'https://aws.amazon.com/codedeploy',
-    'https://cloud.google.com/compute',
-    'https://pm2.keymetrics.io',
-    'https://docs.docker.com/compose',
+    'https://vercel.com',
   ],
 }
 export const ExperienceHref: { [index: string]: string[] } = {

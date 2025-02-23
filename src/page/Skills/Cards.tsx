@@ -1,17 +1,19 @@
 import {Trans, useTranslation} from 'react-i18next'
-import {DiGoogleCloudPlatform, DiMysql, DiReact} from 'react-icons/di'
+import {DiMysql, DiReact} from 'react-icons/di'
+import {FaAmazon} from 'react-icons/fa'
 import {GiSpiderWeb} from 'react-icons/gi'
-import {IoLogoHtml5} from 'react-icons/io'
 import {
-  SiAmazonaws,
+  SiAngular,
   SiDocker,
-  SiNodedotjs,
-  SiPm2,
-  SiPython,
+ SiNodedotjs,
+ SiPython,
   SiRedux,
   SiTsnode,
+ SiVercel,
 } from 'react-icons/si'
 
+import {ReactComponent as AzureDevOpsIcon} from
+'../../asset/img/azure-devops.svg'
 import {SkillType} from '../../constant/Enum'
 import {SkillHref} from '../../constant/Links'
 import {Skills} from '../../constant/Skill'
@@ -52,8 +54,8 @@ const Cards = () => {
       icons: [
         <DiReact key={1} />,
         <SiRedux key={2} />,
+        <SiAngular key={4} />,
         <SiTsnode key={3} />,
-        <IoLogoHtml5 key={4} />,
       ],
       details: (
         <Trans
@@ -66,10 +68,10 @@ const Cards = () => {
       name: SkillType.DEVOPS,
       learnings: Skills.devOps,
       icons: [
-        <SiAmazonaws key={1} />,
-        <DiGoogleCloudPlatform key={2} />,
-        <SiDocker key={3} />,
-        <SiPm2 key={4} />,
+        <AzureDevOpsIcon key={1} />,
+        <SiDocker key={2} />,
+        <FaAmazon key={3} />,
+       <SiVercel key={4} />,
       ],
       details: (
         <Trans

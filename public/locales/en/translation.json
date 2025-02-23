@@ -18,8 +18,8 @@
   "content": {
     "introduction": "I'm a self-taught full-stack engineer with a passion for clean and stable code.<br/>As an <1><2>Adventurer</2></1>, always curious about new technologies and willing to share.<br/>Additionally, I excel at creating harmonious environments by recognizing and understanding the emotions of those around me.",
     "backendDetails": "Two years and one year of experience with <0>NodeJS/Express</0> and <1>Python/FastAPI</1> respectively. Almost use SQL-like databases, utilize indexes frequently to speed up query efficiency, and also used <2>Firebase</2> for chat room development. Apply <3>cheerio</3> to crawl  live scores of games information.",
-    "frontendDetails": "I've experience in ReactJS for one year. Make good use of <0>Redux Toolkit</0> to centrally manage the state and cooperate with <1>RTK Query</1> to simplify the code for loading API data. And I'm used to using Typescript for JS development. Has the basic ability of HTML/CSS, often used <2>styled-component</2> to develop component.",
-    "devOpsDetails": "More familiar with AWS cloud services, used with <0>EC2</0>, <1>S3</1>, <2>RDS</2>, etc., and set up <3>CodeDeploy</3> to automatically deploy code. Apply <4>GCE</4> to manage virtual machines and scheduling, and cooperate with <5>PM2</5> to manage multiple NodeJS processes. Utilize <6>Docker-Compose</6> to build backend and frontend services."
+    "frontendDetails": "I have 1 year of experience in ReactJS, using <0>Redux Toolkit</0> and <1>RTK Query</1> for efficient state management and API data handling. I'm also experienced with Angular for 1.5 years, proficient in using <2>NgRx</2> for state management. I frequently use TypeScript for development and component building.",
+     "devOpsDetails": "Experienced in setting up CI/CD pipelines with <0>Azure DevOps</0> and automating deployments. Used Kubernetes with YAML configuration for container orchestration and used <1>Docker-Compose</1> for microservice. Familiar with AWS (<2>EC2</2>, <3>S3</3>, <4>RDS</4>, <5>CodeDeploy</5>) and GitHub-<6>Vercel</6> integration for automatic Next.js deployment."
   },
   "button": {
     "translation": "ZH",
