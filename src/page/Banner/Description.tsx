@@ -49,7 +49,7 @@ const Description = ({isVisible}: Props) => {
       <AnimatedBox>
         <DownloadCV
           as='a'
-          href='/蔡采潔_TsaiChiehTsai_2023_03.pdf'
+          href='/蔡采潔_TsaiChiehTsai_2025_05.pdf'
           download
         >
           <Trans i18nKey='button.downloadCV'/>
