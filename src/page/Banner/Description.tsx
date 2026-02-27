@@ -11,6 +11,7 @@ import {
   TagLine,
 } from '../../styled/banner'
 
+
 interface Props {
   isVisible: boolean
 }
@@ -49,7 +50,7 @@ const Description = ({isVisible}: Props) => {
       <AnimatedBox>
         <DownloadCV
           as='a'
-          href='/蔡采潔_TsaiChiehTsai_2025_05.pdf'
+          href={`${process.env.PUBLIC_URL}/蔡采潔_TsaiChiehTsai_2025_05.pdf`}
           download
         >
           <Trans i18nKey='button.downloadCV'/>
